@@ -45,7 +45,10 @@ def get_response_mask(response_ids, eos_token_id, dtype):
     return mask
 
 def main(args):
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    # 检查是否为本地路径
+    import os
+    is_local_path = os.path.exists(args.model) and os.path.isdir(args.model)
+    tokenizer = AutoTokenizer.from_pretrained(args.model, local_files_only=is_local_path, trust_remote_code=True)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     if tokenizer.pad_token_id is None:
@@ -55,6 +58,7 @@ def main(args):
         tokenizer=args.model,
         # gpu_memory_utilization=0.8,
         seed=int(args.suffix),
+        trust_remote_code=True
     )
     dataset_handler = get_dataset_handler("math")
     questions, answers = dataset_handler.load_data()

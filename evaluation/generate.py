@@ -1,9 +1,12 @@
 import vllm
 import argparse
-import  evaluation.datasets_loader as datasets_loader
+import sys
+import os
+# 添加项目根目录到Python路径
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import evaluation.datasets_loader as datasets_loader
 from transformers import AutoTokenizer
 import json
-import os
 
 STORAGE_PATH = os.getenv("STORAGE_PATH")
 
@@ -13,11 +16,15 @@ def main(args):
     with open('tokens.json','r') as f: 
         tokens = json.load(f)
     print(args.model, args.dataset)
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    # 检查是否为本地路径
+    import os
+    is_local_path = os.path.exists(args.model) and os.path.isdir(args.model)
+    tokenizer = AutoTokenizer.from_pretrained(args.model, local_files_only=is_local_path, trust_remote_code=True)
     model = vllm.LLM(
         model=args.model,
         tokenizer=args.model,
-        gpu_memory_utilization=0.85
+        gpu_memory_utilization=0.85,
+        trust_remote_code=True
     )
     sample_params = vllm.SamplingParams(
         max_tokens=4096,

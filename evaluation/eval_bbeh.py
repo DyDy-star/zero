@@ -135,8 +135,8 @@ if __name__ == "__main__":
     parser.add_argument("--output_file", type=str, default="outputs.json", help="File to save results")
     args = parser.parse_args()
     
-    tokenizer = AutoTokenizer.from_pretrained(args.model_path)
-    llm = LLM(model=args.model_path, tensor_parallel_size=4,gpu_memory_utilization=0.85)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path, local_files_only=True, trust_remote_code=True)
+    llm = LLM(model=args.model_path, tensor_parallel_size=4, gpu_memory_utilization=0.85, trust_remote_code=True)
     dataset = datasets.load_dataset('MrLight/bbeh-eval')
     categories = sorted(list(set(dataset['train']['task'])))
     print("Categories:", categories)

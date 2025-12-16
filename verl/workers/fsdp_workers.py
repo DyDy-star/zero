@@ -585,12 +585,13 @@ class FSDPWorker(Worker):
 
         # we should always recompute old_log_probs when it is HybridEngine
         data.meta_info["temperature"] = self.config.rollout.temperature
-        # perform recompute log_prob
+        # perform recompute log_prob and compute entropy
         with self.ulysses_sharding_manager:
             data = self.ulysses_sharding_manager.preprocess_data(data)
-            output = self.actor.compute_log_prob(data=data)
+            log_probs, entropy = self.actor.compute_log_prob(data=data, return_entropy=True)
             output = DataProto.from_dict(
-                tensors={"old_log_probs": output}, meta_info={"temperature": self.config.rollout.temperature}
+                tensors={"old_log_probs": log_probs, "entropy": entropy}, 
+                meta_info={"temperature": self.config.rollout.temperature}
             )
             output = self.ulysses_sharding_manager.postprocess_data(output)
 

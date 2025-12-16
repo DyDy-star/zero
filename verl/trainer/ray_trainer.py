@@ -252,6 +252,9 @@ class RayPPOTrainer:
         config.worker.actor.optim.training_steps = self.training_steps
         config.worker.critic.optim.training_steps = self.training_steps
         print(f"Total training steps: {self.training_steps}")
+        
+        # Initialize entropy history tracking
+        self.entropy_history = []
 
     def _maybe_log_val_generations(
         self, inputs: List[str], outputs: List[str], labels: List[str], scores: List[float]
@@ -416,6 +419,19 @@ class RayPPOTrainer:
         last_global_step_path = os.path.join(self.config.trainer.save_checkpoint_path, CHECKPOINT_TRACKER)
         with open(last_global_step_path, "w") as f:
             f.write(str(self.global_step))
+    
+    def _save_entropy_history(self) -> None:
+        """Save entropy history to file for visualization."""
+        import json
+        if len(self.entropy_history) > 0:
+            entropy_path = os.path.join(
+                self.config.trainer.save_checkpoint_path, 
+                f"entropy_history_{self.config.trainer.experiment_name}.json"
+            )
+            os.makedirs(os.path.dirname(entropy_path), exist_ok=True)
+            with open(entropy_path, "w") as f:
+                json.dump(self.entropy_history, f, indent=2)
+            print(f"Saved entropy history to {entropy_path}")
 
     def _load_checkpoint(self) -> None:
         if self.config.trainer.load_checkpoint_path is None:
@@ -541,10 +557,22 @@ class RayPPOTrainer:
                     with timer("reward", timing_raw):
                         reward_ref = self.reward_fn.compute_reward.remote(batch)
 
-                    # recompute old_log_probs
+                    # recompute old_log_probs and compute entropy
                     with timer("old", timing_raw):
                         old_log_probs = self.actor_rollout_wg.compute_log_probs(batch)
                         batch = batch.union(old_log_probs)
+                        
+                        # compute and log entropy metrics
+                        if "entropy" in old_log_probs.batch:
+                            entropy_tensor = old_log_probs.batch["entropy"]
+                            response_mask = batch.batch["response_mask"]
+                            entropy_mean = VF.masked_mean(entropy_tensor, response_mask).item()
+                            metrics[f"policy/entropy"] = entropy_mean
+                            # Store entropy history for visualization
+                            self.entropy_history.append({
+                                "step": self.global_step,
+                                "entropy": entropy_mean
+                            })
 
                     # compute ref_log_probs
                     if self.use_reference_policy:
@@ -634,3 +662,6 @@ class RayPPOTrainer:
 
         if self.config.trainer.save_freq <= 0 or self.global_step % self.config.trainer.save_freq != 0:
             self._save_checkpoint()
+        
+        # Save entropy history
+        self._save_entropy_history()

@@ -55,9 +55,42 @@ class MathDatasetHandler(DatasetHandler):
         super().__init__(answer_pattern)
 
     def load_data(self):
-        df = pandas.read_csv(
-            f"https://openaipublic.blob.core.windows.net/simple-evals/math_500_test.csv"
-        )
+        import os
+        import time
+        import urllib.request
+        
+        # 设置本地缓存路径
+        storage_path = os.getenv("STORAGE_PATH", "/data/user5/R-Zero")
+        cache_dir = os.path.join(storage_path, "evaluation", "cache")
+        os.makedirs(cache_dir, exist_ok=True)
+        cache_file = os.path.join(cache_dir, "math_500_test.csv")
+        
+        # 如果本地缓存存在，直接从本地读取
+        if os.path.exists(cache_file):
+            print(f"从本地缓存加载 MATH 数据集: {cache_file}")
+            df = pandas.read_csv(cache_file)
+        else:
+            # 如果没有缓存，尝试从网络下载（带重试机制）
+            url = "https://openaipublic.blob.core.windows.net/simple-evals/math_500_test.csv"
+            max_retries = 3
+            retry_delay = 5
+            
+            for attempt in range(max_retries):
+                try:
+                    print(f"正在下载 MATH 数据集 (尝试 {attempt + 1}/{max_retries})...")
+                    df = pandas.read_csv(url)
+                    # 保存到本地缓存
+                    df.to_csv(cache_file, index=False)
+                    print(f"✓ 下载成功并保存到: {cache_file}")
+                    break
+                except Exception as e:
+                    print(f"✗ 下载失败: {e}")
+                    if attempt < max_retries - 1:
+                        print(f"等待 {retry_delay} 秒后重试...")
+                        time.sleep(retry_delay)
+                    else:
+                        raise Exception(f"无法下载 MATH 数据集，已重试 {max_retries} 次。请检查网络连接。")
+        
         examples = [row.to_dict() for _, row in df.iterrows()]
         questions = [example['Question'] for example in examples]
         answers = [example['Answer'] for example in examples]
@@ -266,7 +299,14 @@ class Mydataset_DatasetHandler(DatasetHandler):
         super().__init__(answer_pattern)
         self.name = name
     def load_data(self):
-        dataset = load_dataset(self.name)['train']
+        import os
+        # 判断是本地路径还是 Hugging Face Hub 仓库名
+        if os.path.exists(self.name) or self.name.startswith('/') or self.name.startswith('./'):
+            # 本地路径：使用 path 参数
+            dataset = load_dataset('json', data_dir=self.name, split='train')
+        else:
+            # Hugging Face Hub 仓库 ID
+            dataset = load_dataset(self.name)['train']
         examples = []
         
         for row in dataset:

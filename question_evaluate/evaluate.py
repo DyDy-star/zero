@@ -33,7 +33,7 @@ from mathruler.grader import extract_boxed_content, grade_answer
 # --- Argument Parsing ---
 parser = argparse.ArgumentParser(description="Evaluate generated questions using vLLM.")
 parser.add_argument("--model", type=str, default="Qwen/Qwen3-4B-Base", help="Path to the model in Hugging Face format.")
-parser.add_argument("--num_samples", type=int, default=9, help="Number of candidate answers to generate per question (n).")
+parser.add_argument("--num_samples", type=int, default=10, help="Number of candidate answers to generate per question (n).")
 parser.add_argument("--suffix", type=str, default="0", help="A unique suffix for file naming, often the GPU index.")
 parser.add_argument("--save_name", type=str, required=True, help="A base name for input and output files.")
 args = parser.parse_args()
@@ -81,12 +81,15 @@ print(f"[{args.suffix}] Found {len(questions)} questions to process.")
 
 # 2. Initialize Model and Tokenizer
 print(f"[{args.suffix}] Initializing vLLM for model: {args.model}")
-tokenizer = AutoTokenizer.from_pretrained(args.model)
+# 检查是否为本地路径
+is_local_path = os.path.exists(args.model) and os.path.isdir(args.model)
+tokenizer = AutoTokenizer.from_pretrained(args.model, local_files_only=is_local_path, trust_remote_code=True)
 model = vllm.LLM(
     model=args.model,
     tokenizer=args.model,
     gpu_memory_utilization=0.85,
     seed=int(args.suffix),
+    trust_remote_code=True
 )
 sample_params = vllm.SamplingParams(
     max_tokens=4096,

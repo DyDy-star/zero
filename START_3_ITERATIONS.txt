@@ -1,0 +1,97 @@
+╔══════════════════════════════════════════════════════════════════╗
+║          R-Zero 3轮迭代训练（符合论文标准）                        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+✅ 分析结论：
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 论文表格中的R-Zero结果很可能是 **3轮迭代** 的结果
+2. 当前代码默认设置是 **5轮迭代** (v1-v5)
+3. 已为您创建了 **3轮迭代版本** 的训练脚本
+
+═══════════════════════════════════════════════════════════════════
+【代码设置验证】
+═══════════════════════════════════════════════════════════════════
+
+✅ 原始代码 (main.sh):
+   for i in {2..5}; do     → 5轮迭代 (v1, v2, v3, v4, v5)
+
+✅ 新建脚本 (main_3iterations.sh):
+   for i in {2..3}; do     → 3轮迭代 (v1, v2, v3) ★推荐★
+
+═══════════════════════════════════════════════════════════════════
+【3轮迭代训练命令】★推荐★
+═══════════════════════════════════════════════════════════════════
+
+方法1：使用3轮迭代脚本（推荐）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+export CUDA_VISIBLE_DEVICES=0,1,2,3 && \
+export STORAGE_PATH=/data/user5/R-Zero && \
+export HF_ENDPOINT=https://hf-mirror.com && \
+export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE" && \
+export VLLM_USE_V1=0 && \
+export VLLM_DISABLE_COMPILE_CACHE=1 && \
+cd /data/user5/R-Zero && \
+bash scripts/main_3iterations.sh /data/user5/R-Zero/OctoThinker-3B-Hybrid-Base octo_3b
+
+
+方法2：修改原始脚本为3轮迭代
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 备份原文件
+cp /data/user5/R-Zero/scripts/main.sh /data/user5/R-Zero/scripts/main_5iterations_backup.sh
+
+# 修改为3轮迭代
+sed -i 's/for i in {2..5}/for i in {2..3}/' /data/user5/R-Zero/scripts/main.sh
+
+# 然后使用原命令启动
+export CUDA_VISIBLE_DEVICES=0,1,2,3 && \
+export STORAGE_PATH=/data/user5/R-Zero && \
+export HF_ENDPOINT=https://hf-mirror.com && \
+export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE" && \
+export VLLM_USE_V1=0 && \
+export VLLM_DISABLE_COMPILE_CACHE=1 && \
+cd /data/user5/R-Zero && \
+bash scripts/main.sh /data/user5/R-Zero/OctoThinker-3B-Hybrid-Base octo_3b
+
+═══════════════════════════════════════════════════════════════════
+【训练时间对比】
+═══════════════════════════════════════════════════════════════════
+
+3轮迭代: ~6-12小时  ★推荐用于复现论文★
+5轮迭代: ~10-20小时 （探索极限性能）
+
+═══════════════════════════════════════════════════════════════════
+【训练流程（3轮）】
+═══════════════════════════════════════════════════════════════════
+
+第1轮 (v1):
+  Base Model → Questioner_v1 (5步) → Solver_v1 (15步)
+
+第2轮 (v2):
+  Solver_v1 + Questioner_v1 → Questioner_v2 (5步) 
+  → Solver_v1 + Questioner_v2 → Solver_v2 (15步)
+
+第3轮 (v3):
+  Solver_v2 + Questioner_v2 → Questioner_v3 (5步)
+  → Solver_v2 + Questioner_v3 → Solver_v3 (15步) ★最终模型★
+
+═══════════════════════════════════════════════════════════════════
+【最终模型位置】
+═══════════════════════════════════════════════════════════════════
+
+Questioner: /data/user5/R-Zero/models/octo_3b_questioner_v3/global_step_5/actor/huggingface
+Solver:     /data/user5/R-Zero/models/octo_3b_solver_v3/global_step_15/actor/huggingface
+
+═══════════════════════════════════════════════════════════════════
+【监控训练】
+═══════════════════════════════════════════════════════════════════
+
+watch -n 1 nvidia-smi
+
+预期GPU使用:
+  GPU 0-1: 高负载（训练）
+  GPU 2-3: 中等负载（vLLM推理）
+
+═══════════════════════════════════════════════════════════════════

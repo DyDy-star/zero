@@ -26,9 +26,9 @@ algorithm:
 
 worker:
   actor:
-    global_batch_size: 128
-    micro_batch_size_per_device_for_update: 2
-    micro_batch_size_per_device_for_experience: 8
+    global_batch_size: 128  # 恢复原始配置
+    micro_batch_size_per_device_for_update: 2  # 恢复原始配置
+    micro_batch_size_per_device_for_experience: 8  # 恢复原始配置
     max_grad_norm: 1.0
     padding_free: true
     ulysses_sequence_parallel_size: 1
@@ -44,20 +44,20 @@ worker:
       lr_warmup_ratio: 0.0
     fsdp:
       enable_full_shard: true
-      enable_cpu_offload: false
+      enable_cpu_offload: false  # 禁用CPU offload，因为与梯度累积冲突
       enable_rank0_init: true
     offload:
       offload_params: true  # true: more CPU memory; false: more GPU memory
       offload_optimizer: true  # true: more CPU memory; false: more GPU memory
 
   rollout:
-    n: 5
+    n: 5  # 恢复原始配置
     temperature: 1.0
     top_p: 0.99
-    gpu_memory_utilization: 0.7
+    gpu_memory_utilization: 0.7  # 恢复原始配置
     enforce_eager: false
     enable_chunked_prefill: false
-    tensor_parallel_size: 2
+    tensor_parallel_size: 2  # 恢复原始配置
     limit_images: 0
     val_override_config:
       temperature: 1.0
@@ -66,7 +66,7 @@ worker:
   ref:
     fsdp:
       enable_full_shard: true
-      enable_cpu_offload: true  # true: more CPU memory; false: more GPU memory
+      enable_cpu_offload: true  # 恢复原始配置：启用CPU offload
       enable_rank0_init: true
     offload:
       offload_params: true
@@ -82,12 +82,12 @@ trainer:
   experiment_name: qwen2_5_7b_math_grpo
   logger: ["console", "wandb"]
   nnodes: 1
-  n_gpus_per_node: 8
+  n_gpus_per_node: 2  # 使用2个GPU进行训练
   val_freq: 3  # -1 to disable
   val_before_train: true
   val_only: false
   val_generations_to_log: 3
   save_freq: 5  # -1 to disable
-  save_limit: 3  # -1 to disable
+  save_limit: 1  # 只保留最新的1个checkpoint，节省空间
   save_checkpoint_path: your_checkpoint_path
   load_checkpoint_path: null

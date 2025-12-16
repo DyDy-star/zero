@@ -29,12 +29,20 @@ for i in range(8):
         continue
 
 
-for i in range(8):
-    try:
-        os.remove(f'{STORAGE_PATH}/generated_question/{args.experiment_name}_{i}_results.json')
-    except:
-        print(f"File {args.experiment_name}_{i}_results.json not found")
-        continue
+# 保留生成的问题数据，不删除
+# 如果需要清理，请手动删除或使用专门的清理脚本
+print("=" * 60)
+print("保留生成的问题数据文件，不自动删除")
+print(f"数据位置: {STORAGE_PATH}/generated_question/")
+print("=" * 60)
+
+# 原删除代码已注释，数据将被保留：
+# for i in range(8):
+#     try:
+#         os.remove(f'{STORAGE_PATH}/generated_question/{args.experiment_name}_{i}_results.json')
+#     except:
+#         print(f"File {args.experiment_name}_{i}_results.json not found")
+#         continue
 
 scores = [data['score'] for data in datas]
 #  print the distribution of scores

@@ -78,29 +78,31 @@ def split_list(lst, n=4):
 os.environ["NO_PROXY"] = "0.0.0.0,127.0.0.1"
 
 def fetch(index,i):
+    # 使用端口 5000 和 5001（两个 vLLM 服务）
     response = requests.get(f"http://0.0.0.0:{5000+index}/hello?name={i}")
     print(response)
     return True
 
 def generate_results(data):
-    datas = split_list(data,4)
-    random_names = [generate_temp_filename(prefix=f"temp_{i}", suffix=".json") for i in range(4)]
-    for i in range(4):
+    # 使用 2 个 vLLM 服务并行处理
+    num_workers = 2
+    datas = split_list(data, num_workers)
+    random_names = [generate_temp_filename(prefix=f"temp_{i}", suffix=".json") for i in range(num_workers)]
+    for i in range(num_workers):
         with open(random_names[i],'w') as f:
             json.dump(datas[i],f,indent=4)
 
     final_results = []
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        futures = [executor.submit(fetch, i,random_names[i]) for i in range(4)]
-
+    # 并行执行，充分利用 2 个 vLLM 服务
+    with ThreadPoolExecutor(max_workers=num_workers) as executor:
+        futures = [executor.submit(fetch, i, random_names[i]) for i in range(num_workers)]
         for future in as_completed(futures):
             print(future.result())
 
-    for i in range(4):
+    for i in range(num_workers):
         with open(random_names[i].replace('.json','_results.json'),'r') as f:
             final_results.extend(json.load(f))
-        # os.remove(random_names[i].replace('.json','_results.json'))
-    for i in range(4):
+    for i in range(num_workers):
         os.remove(random_names[i].replace('.json','_results.json'))
     return final_results
 
@@ -138,7 +140,7 @@ def compute_score(predicts: List[str], ground_truths: List[str], format_weight: 
     assert len(penalty) == len(final_results)
     scores = []
     for i in range(len(final_results)):
-        final_score = (min(final_results[i]["score"],1-final_results[i]["score"]) if final_results[i]['question'] else -1)-penalty[i]
+        final_score = max(0, ((1 - 2 * abs(final_results[i]["score"] - 0.5)) if final_results[i]['question'] else -1) - penalty[i])
         scores.append({"overall": final_score,"format": 1 if final_results[i]['question'] else 0,"accuracy": penalty[i]})
     return scores
 

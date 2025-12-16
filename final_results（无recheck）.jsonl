@@ -1,0 +1,23 @@
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v1/global_step_15/actor/huggingface", "dataset": "math", "score": 41.4}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v1/global_step_15/actor/huggingface", "dataset": "gsm8k", "score": 73.31}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v1/global_step_15/actor/huggingface", "dataset": "amc", "score": 22.19}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v1/global_step_5/actor/huggingface", "dataset": "math", "score": 36.2}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v1/global_step_5/actor/huggingface", "dataset": "gsm8k", "score": 59.82}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v1/global_step_5/actor/huggingface", "dataset": "amc", "score": 19.77}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v2/global_step_15/actor/huggingface", "dataset": "math", "score": 41.8}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v2/global_step_15/actor/huggingface", "dataset": "gsm8k", "score": 74.22}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v2/global_step_15/actor/huggingface", "dataset": "amc", "score": 20.23}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v2/global_step_5/actor/huggingface", "dataset": "math", "score": 36.8}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v2/global_step_5/actor/huggingface", "dataset": "gsm8k", "score": 65.28}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v2/global_step_5/actor/huggingface", "dataset": "amc", "score": 25.08}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v3/global_step_15/actor/huggingface", "dataset": "math", "score": 38.0}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v3/global_step_15/actor/huggingface", "dataset": "gsm8k", "score": 72.86}
+{"model": "/data/user5/R-Zero/models/octo_3b_solver_v3/global_step_15/actor/huggingface", "dataset": "amc", "score": 17.66}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v3/global_step_5/actor/huggingface", "dataset": "math", "score": 37.0}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v3/global_step_5/actor/huggingface", "dataset": "gsm8k", "score": 67.4}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v3/global_step_5/actor/huggingface", "dataset": "amc", "score": 22.19}
+{"model": "/data/user5/R-Zero/OctoThinker-3B-Hybrid-Base", "dataset": "math", "score": 37.0}
+{"model": "/data/user5/R-Zero/OctoThinker-3B-Hybrid-Base", "dataset": "gsm8k", "score": 59.67}
+{"model": "/data/user5/R-Zero/OctoThinker-3B-Hybrid-Base", "dataset": "amc", "score": 20.39}
+
+

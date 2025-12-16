@@ -31,19 +31,44 @@ import stopit  # 1. Import the thread-safe 'stopit' library
 parser = argparse.ArgumentParser()
 parser.add_argument('--port', type=str, default='5000')
 parser.add_argument('--model_path', type=str, default='Qwen/Qwen3-4B-Base')
-parser.add_argument('--gpu_mem_util', type=float, default=0.8,
+parser.add_argument('--gpu_mem_util', type=float, default=0.9,
                     help='The maximum GPU memory utilization fraction for vLLM.')
 args = parser.parse_args()
 
 # ------------------------- vLLM Initialization ------------------------ #
+# ---------------------- GPU Idle Utilization Thread Setup ---------------------- #
+# 初始化事件对象（必须在模型加载前定义）
+stop_event = threading.Event()    # Event to stop the thread globally
+pause_event = threading.Event()   # Event to pause the thread during requests
+pause_event.set()  # 初始化时暂停，避免干扰vLLM的内存分析
+
 # (This section remains unchanged)
 print('[init] Loading model...')
 
-tokenizer = AutoTokenizer.from_pretrained(args.model_path)
+# 检查是本地路径还是远程 repo
+import os
+is_local_path = os.path.exists(args.model_path) and os.path.isdir(args.model_path)
+
+# 加载 tokenizer，如果是本地路径，添加必要参数
+if is_local_path:
+    print(f'[init] 检测到本地模型路径: {args.model_path}')
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_path,
+        trust_remote_code=True,
+        local_files_only=True
+    )
+else:
+    print(f'[init] 从 HuggingFace Hub 加载: {args.model_path}')
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_path,
+        trust_remote_code=True
+    )
+
 model = vllm.LLM(
     model=args.model_path,
     tokenizer=args.model_path,
     gpu_memory_utilization=args.gpu_mem_util,
+    trust_remote_code=True,
 )
 
 sample_params = vllm.SamplingParams(
@@ -55,17 +80,19 @@ sample_params = vllm.SamplingParams(
     n=10, # Generate 10 candidate answers for each question
 )
 
+print('[init] Model loaded successfully. Activating GPU idle worker...')
+pause_event.clear()  # 模型加载完成后，启动idle worker
+time.sleep(1)  # 给worker一点时间开始运行
+print('[init] GPU idle worker activated.')
+
 # ---------------------- GPU Idle Utilization Thread ---------------------- #
 # (This section remains unchanged)
-stop_event = threading.Event()    # Event to stop the thread globally
-pause_event = threading.Event()   # Event to pause the thread during requests
-
 def gpu_idle_worker():
     '''
     This worker occupies the GPU with a continuous matrix multiplication loop when idle,
     preventing potential performance drops from GPU power state changes.
     '''
-    print('[idle_worker] GPU idle worker started.')
+    print('[idle_worker] GPU idle worker started (paused until model loaded).')
     running = True
     while not stop_event.is_set():
         if pause_event.is_set():
@@ -106,6 +133,16 @@ def grade_answer_with_timeout(res1, res2):
 
 # ---------------------------- Flask Application --------------------------- #
 app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def index():
+    '''健康检查端点'''
+    return jsonify({
+        'status': 'ok',
+        'message': 'vLLM服务运行中',
+        'model': args.model_path,
+        'endpoint': '/hello?name=<任务文件路径>'
+    })
 
 @app.route('/hello', methods=['GET'])
 def hello():
@@ -219,7 +256,7 @@ def hello():
         return {
             'question': question,
             'answer':   majority_ans,
-            'score':    score if majority_ans == golden_answer and score > 0.1 else 0,
+            'score':    score,
             'results':  results
         }
 
