@@ -7,7 +7,7 @@ export CUDA_VISIBLE_DEVICES=0,1
 # 设置环境变量
 export STORAGE_PATH=/data/user5/R-Zero
 export HF_ENDPOINT=https://hf-mirror.com
-export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE"
+export HUGGINGFACENAME="YOUR_HUGGINGFACE_TOKEN_HERE"
 
 # 验证环境变量
 echo "=== 环境变量检查 ==="

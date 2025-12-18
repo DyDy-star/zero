@@ -9,7 +9,7 @@
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 export STORAGE_PATH=/data/user5/R-Zero
 export HF_ENDPOINT=https://hf-mirror.com
-export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE"
+export HUGGINGFACENAME="YOUR_HUGGINGFACE_TOKEN_HERE"
 
 # 切换到项目目录
 cd /data/user5/R-Zero
@@ -28,7 +28,7 @@ bash start_r_zero_training.sh /data/user5/R-Zero/OctoThinker-3B-Hybrid-Base octo
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 export STORAGE_PATH=/data/user5/R-Zero
 export HF_ENDPOINT=https://hf-mirror.com
-export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE"
+export HUGGINGFACENAME="YOUR_HUGGINGFACE_TOKEN_HERE"
 export VLLM_USE_V1=0
 export VLLM_DISABLE_COMPILE_CACHE=1
 
@@ -53,7 +53,7 @@ bash scripts/main.sh /data/user5/R-Zero/OctoThinker-3B-Hybrid-Base octo_3b
 export CUDA_VISIBLE_DEVICES=0,1,2,3 && \
 export STORAGE_PATH=/data/user5/R-Zero && \
 export HF_ENDPOINT=https://hf-mirror.com && \
-export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE" && \
+export HUGGINGFACENAME="YOUR_HUGGINGFACE_TOKEN_HERE" && \
 export VLLM_USE_V1=0 && \
 export VLLM_DISABLE_COMPILE_CACHE=1 && \
 cd /data/user5/R-Zero && \
@@ -70,7 +70,7 @@ MODEL_NAME="your_model_name"
 export CUDA_VISIBLE_DEVICES=0,1,2,3 && \
 export STORAGE_PATH=/data/user5/R-Zero && \
 export HF_ENDPOINT=https://hf-mirror.com && \
-export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE" && \
+export HUGGINGFACENAME="YOUR_HUGGINGFACE_TOKEN_HERE" && \
 export VLLM_USE_V1=0 && \
 export VLLM_DISABLE_COMPILE_CACHE=1 && \
 cd /data/user5/R-Zero && \
