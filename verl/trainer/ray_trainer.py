@@ -131,7 +131,7 @@ def apply_kl_penalty(data: DataProto, kl_ctrl: core_algos.KLController, kl_penal
     return data, metrics
 
 
-def compute_advantage(data: DataProto, adv_estimator: AdvantageEstimator, gamma: float = 1.0, lam: float = 1.0):
+def compute_advantage(data: DataProto, adv_estimator: AdvantageEstimator, gamma: float = 1.0, lam: float = 1.0, grpo_global_norm: bool = False):
     token_level_rewards = data.batch["token_level_rewards"]
     response_mask = data.batch["response_mask"]
     index = data.non_tensor_batch["uid"]
@@ -141,7 +141,9 @@ def compute_advantage(data: DataProto, adv_estimator: AdvantageEstimator, gamma:
             token_level_rewards, values, response_mask, gamma, lam
         )
     elif adv_estimator == AdvantageEstimator.GRPO:
-        advantages, returns = core_algos.compute_grpo_outcome_advantage(token_level_rewards, response_mask, index)
+        advantages, returns = core_algos.compute_grpo_outcome_advantage(
+            token_level_rewards, response_mask, index, global_norm=grpo_global_norm
+        )
     elif adv_estimator == AdvantageEstimator.REINFORCE_PLUS_PLUS:
         advantages, returns = core_algos.compute_reinforce_plus_plus_outcome_advantage(
             token_level_rewards, response_mask, gamma
@@ -553,11 +555,7 @@ class RayPPOTrainer:
                     # compute global_valid tokens
                     batch.meta_info["global_token_num"] = torch.sum(batch.batch["attention_mask"], dim=-1).tolist()
 
-                    # compute reward
-                    with timer("reward", timing_raw):
-                        reward_ref = self.reward_fn.compute_reward.remote(batch)
-
-                    # recompute old_log_probs and compute entropy
+                    # recompute old_log_probs and compute entropy (BEFORE reward)
                     with timer("old", timing_raw):
                         old_log_probs = self.actor_rollout_wg.compute_log_probs(batch)
                         batch = batch.union(old_log_probs)
@@ -573,6 +571,10 @@ class RayPPOTrainer:
                                 "step": self.global_step,
                                 "entropy": entropy_mean
                             })
+
+                    # compute reward (entropy is now in batch)
+                    with timer("reward", timing_raw):
+                        reward_ref = self.reward_fn.compute_reward.remote(batch)
 
                     # compute ref_log_probs
                     if self.use_reference_policy:
@@ -607,6 +609,7 @@ class RayPPOTrainer:
                             adv_estimator=self.config.algorithm.adv_estimator,
                             gamma=self.config.algorithm.gamma,
                             lam=self.config.algorithm.lam,
+                            grpo_global_norm=self.config.algorithm.grpo_global_norm,
                         )
 
                     # update critic

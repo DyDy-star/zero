@@ -23,6 +23,15 @@ save_path=$3
 wandb_run_id=$4  # 可选：用于恢复训练的 wandb run id
 resume_checkpoint=$5  # 可选：用于恢复训练的 checkpoint 路径
 
+# 自动从 save_path 中提取版本号（如 questioner_v1 -> v1）
+if [[ $save_path =~ _v([0-9]+) ]]; then
+    export MODEL_VERSION="v${BASH_REMATCH[1]}"
+    echo "✓ 自动检测到模型版本: $MODEL_VERSION (从 save_path: $save_path)"
+else
+    export MODEL_VERSION="v1"
+    echo "⚠️  无法从 save_path 提取版本号，默认使用: $MODEL_VERSION"
+fi
+
 # 使用 vLLM v0 引擎（更稳定，内存管理更宽松）
 export VLLM_USE_V1=0
 
@@ -72,7 +81,8 @@ train_cmd="python3 -m verl.trainer.main \
     worker.actor.offload.offload_optimizer=true \
     trainer.max_steps=5 \
     trainer.save_freq=1 \
-    trainer.save_limit=1"
+    trainer.save_limit=1 \
+    algorithm.grpo_global_norm=true"
 
 # 如果提供了 checkpoint 路径，添加恢复参数
 if [ ! -z "$resume_checkpoint" ]; then

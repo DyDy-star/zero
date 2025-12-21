@@ -101,14 +101,40 @@ class BatchFunctionRewardManager(FunctionRewardManager):
         response_str, ground_truth = [], []
         response_ids = data.batch["responses"]
         response_length = data.batch["response_mask"].sum(dim=-1)
+        
+        # Prepare entropy information if available
+        entropy_info_list = []
+        has_entropy = "entropy" in data.batch
+        
         for i in range(len(data)):
             valid_response_ids = response_ids[i][: response_length[i]]
-            response_str.append(
-                self.tokenizer.decode(valid_response_ids, skip_special_tokens=self.config.skip_special_tokens)
+            response_text = self.tokenizer.decode(
+                valid_response_ids, skip_special_tokens=self.config.skip_special_tokens
             )
+            response_str.append(response_text)
             ground_truth.append(data.non_tensor_batch["ground_truth"][i])
+            
+            # Extract entropy for this sample if available
+            if has_entropy:
+                entropy_tensor = data.batch["entropy"][i][: response_length[i]]
+                entropy_info = {
+                    'token_entropies': entropy_tensor.cpu().tolist(),
+                    'response_text': response_text,
+                    'response_ids': valid_response_ids.cpu().tolist(),
+                    'tokenizer': self.tokenizer
+                }
+                entropy_info_list.append(entropy_info)
 
-        scores = self.reward_fn(response_str, ground_truth)
+        # Call reward function with entropy info if available
+        if has_entropy and entropy_info_list:
+            try:
+                scores = self.reward_fn(response_str, ground_truth, entropy_info=entropy_info_list)
+            except TypeError:
+                # Fallback if reward function doesn't accept entropy_info
+                scores = self.reward_fn(response_str, ground_truth)
+        else:
+            scores = self.reward_fn(response_str, ground_truth)
+            
         reward_tensor = torch.zeros_like(data.batch["responses"], dtype=torch.float32)
         reward_metrics = defaultdict(list)
         for i, score in enumerate(scores):

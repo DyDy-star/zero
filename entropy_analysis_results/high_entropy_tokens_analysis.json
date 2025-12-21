@@ -1,0 +1,29 @@
+{
+  "v1": {
+    "total_high_entropy_occurrences": 197653,
+    "entropy_statistics": {
+      "mean": 4.2411693409662385,
+      "std": 1.4535924453565312,
+      "min": 2.75,
+      "max": 10.0
+    }
+  },
+  "v2": {
+    "total_high_entropy_occurrences": 178084,
+    "entropy_statistics": {
+      "mean": 4.0667841439994605,
+      "std": 1.8023490587808362,
+      "min": 2.375,
+      "max": 10.25
+    }
+  },
+  "v3": {
+    "total_high_entropy_occurrences": 146336,
+    "entropy_statistics": {
+      "mean": 3.380894183591187,
+      "std": 1.6520538636367814,
+      "min": 2.0,
+      "max": 10.4375
+    }
+  }
+}

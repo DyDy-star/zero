@@ -1,0 +1,1955 @@
+{
+  "version": "v2",
+  "total_occurrences": 127071,
+  "unique_tokens": 11682,
+  "top_100_tokens": [
+    {
+      "token": "the",
+      "count": 5240,
+      "mean_entropy": 3.4176407442748094,
+      "std_entropy": 1.1023144611540272,
+      "min_entropy": 2.375,
+      "max_entropy": 9.1875
+    },
+    {
+      "token": ".",
+      "count": 4949,
+      "mean_entropy": 3.8103594160436454,
+      "std_entropy": 1.5370965962986982,
+      "min_entropy": 2.375,
+      "max_entropy": 9.75
+    },
+    {
+      "token": ",",
+      "count": 4619,
+      "mean_entropy": 3.612409341848885,
+      "std_entropy": 1.323632286197569,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5
+    },
+    {
+      "token": "$",
+      "count": 3750,
+      "mean_entropy": 3.257125,
+      "std_entropy": 1.1316525595892937,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "a",
+      "count": 3244,
+      "mean_entropy": 3.581467709617756,
+      "std_entropy": 1.1528475943552785,
+      "min_entropy": 2.375,
+      "max_entropy": 9.4375
+    },
+    {
+      "token": "of",
+      "count": 3130,
+      "mean_entropy": 3.4301717252396164,
+      "std_entropy": 1.1101123597821587,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "\\",
+      "count": 1988,
+      "mean_entropy": 3.896755533199195,
+      "std_entropy": 1.8041855336574228,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5625
+    },
+    {
+      "token": "and",
+      "count": 1841,
+      "mean_entropy": 3.500288565996741,
+      "std_entropy": 1.1442115760547686,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0625
+    },
+    {
+      "token": "is",
+      "count": 1783,
+      "mean_entropy": 3.4824733595064497,
+      "std_entropy": 1.1261603340245192,
+      "min_entropy": 2.375,
+      "max_entropy": 9.75
+    },
+    {
+      "token": "that",
+      "count": 1625,
+      "mean_entropy": 3.2815384615384615,
+      "std_entropy": 1.0380092765173607,
+      "min_entropy": 2.375,
+      "max_entropy": 9.125
+    },
+    {
+      "token": "to",
+      "count": 1566,
+      "mean_entropy": 3.6119292784163473,
+      "std_entropy": 1.1884215346755183,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0625
+    },
+    {
+      "token": ")",
+      "count": 1466,
+      "mean_entropy": 3.994713506139154,
+      "std_entropy": 1.781528223463683,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5625
+    },
+    {
+      "token": "(",
+      "count": 1452,
+      "mean_entropy": 3.891636535812672,
+      "std_entropy": 1.7038373447592334,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5
+    },
+    {
+      "token": "-",
+      "count": 1335,
+      "mean_entropy": 4.353206928838952,
+      "std_entropy": 2.0443610893367916,
+      "min_entropy": 2.375,
+      "max_entropy": 10.0
+    },
+    {
+      "token": "in",
+      "count": 1059,
+      "mean_entropy": 3.610127478753541,
+      "std_entropy": 1.2658069173726048,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "{",
+      "count": 907,
+      "mean_entropy": 4.402839029768468,
+      "std_entropy": 2.1445962406837698,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "}",
+      "count": 895,
+      "mean_entropy": 4.00377094972067,
+      "std_entropy": 1.8253406904146567,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": ":",
+      "count": 868,
+      "mean_entropy": 4.647537442396313,
+      "std_entropy": 1.9996732889567137,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "are",
+      "count": 834,
+      "mean_entropy": 3.4155425659472423,
+      "std_entropy": 1.0361064060698262,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "with",
+      "count": 819,
+      "mean_entropy": 3.4746260683760686,
+      "std_entropy": 1.0881222095767946,
+      "min_entropy": 2.375,
+      "max_entropy": 8.5
+    },
+    {
+      "token": "<",
+      "count": 811,
+      "mean_entropy": 5.291037299630086,
+      "std_entropy": 2.1433615174662206,
+      "min_entropy": 2.375,
+      "max_entropy": 9.8125
+    },
+    {
+      "token": ">",
+      "count": 798,
+      "mean_entropy": 4.956492794486215,
+      "std_entropy": 1.9941707494051992,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5
+    },
+    {
+      "token": "'",
+      "count": 760,
+      "mean_entropy": 4.222574013157895,
+      "std_entropy": 1.7991281710468239,
+      "min_entropy": 2.375,
+      "max_entropy": 9.625
+    },
+    {
+      "token": "number",
+      "count": 736,
+      "mean_entropy": 3.325874660326087,
+      "std_entropy": 0.944630227466762,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "\"",
+      "count": 724,
+      "mean_entropy": 4.6278487569060776,
+      "std_entropy": 2.0485286878968956,
+      "min_entropy": 2.375,
+      "max_entropy": 9.9375
+    },
+    {
+      "token": "In",
+      "count": 666,
+      "mean_entropy": 4.398226351351352,
+      "std_entropy": 0.7912341518274275,
+      "min_entropy": 2.375,
+      "max_entropy": 8.625
+    },
+    {
+      "token": "Let",
+      "count": 641,
+      "mean_entropy": 3.030128705148206,
+      "std_entropy": 0.6707856158597508,
+      "min_entropy": 2.375,
+      "max_entropy": 8.1875
+    },
+    {
+      "token": "Find",
+      "count": 625,
+      "mean_entropy": 2.7683,
+      "std_entropy": 0.553406595551589,
+      "min_entropy": 2.375,
+      "max_entropy": 6.5625
+    },
+    {
+      "token": "for",
+      "count": 613,
+      "mean_entropy": 3.5991027732463294,
+      "std_entropy": 1.2969338175563099,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "=",
+      "count": 607,
+      "mean_entropy": 4.222868616144975,
+      "std_entropy": 1.989876309750141,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5
+    },
+    {
+      "token": "Consider",
+      "count": 598,
+      "mean_entropy": 3.6730246655518393,
+      "std_entropy": 0.6644095414680501,
+      "min_entropy": 2.375,
+      "max_entropy": 7.71875
+    },
+    {
+      "token": "1",
+      "count": 589,
+      "mean_entropy": 3.426358234295416,
+      "std_entropy": 1.1320367490732048,
+      "min_entropy": 2.375,
+      "max_entropy": 8.9375
+    },
+    {
+      "token": "A",
+      "count": 578,
+      "mean_entropy": 3.706206747404844,
+      "std_entropy": 1.233029041280587,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "be",
+      "count": 569,
+      "mean_entropy": 3.458369947275923,
+      "std_entropy": 1.1377081835998413,
+      "min_entropy": 2.375,
+      "max_entropy": 9.1875
+    },
+    {
+      "token": "n",
+      "count": 525,
+      "mean_entropy": 3.433452380952381,
+      "std_entropy": 1.2791127589518363,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0
+    },
+    {
+      "token": "The",
+      "count": 486,
+      "mean_entropy": 3.6654449588477367,
+      "std_entropy": 1.2407506660107293,
+      "min_entropy": 2.375,
+      "max_entropy": 8.75
+    },
+    {
+      "token": "all",
+      "count": 483,
+      "mean_entropy": 3.210727225672878,
+      "std_entropy": 1.0547363621948322,
+      "min_entropy": 2.375,
+      "max_entropy": 9.125
+    },
+    {
+      "token": "2",
+      "count": 481,
+      "mean_entropy": 3.4235317047817047,
+      "std_entropy": 1.1695655935684188,
+      "min_entropy": 2.375,
+      "max_entropy": 8.625
+    },
+    {
+      "token": "s",
+      "count": 478,
+      "mean_entropy": 3.9870554393305437,
+      "std_entropy": 1.5759670579330265,
+      "min_entropy": 2.375,
+      "max_entropy": 9.125
+    },
+    {
+      "token": "by",
+      "count": 469,
+      "mean_entropy": 3.5047974413646057,
+      "std_entropy": 1.1227442613765648,
+      "min_entropy": 2.375,
+      "max_entropy": 9.3125
+    },
+    {
+      "token": "on",
+      "count": 465,
+      "mean_entropy": 3.580443548387097,
+      "std_entropy": 1.2917975650612452,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0
+    },
+    {
+      "token": "/",
+      "count": 455,
+      "mean_entropy": 5.154876373626373,
+      "std_entropy": 2.153064477290535,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "can",
+      "count": 454,
+      "mean_entropy": 3.299421806167401,
+      "std_entropy": 0.9098677464457615,
+      "min_entropy": 2.375,
+      "max_entropy": 8.75
+    },
+    {
+      "token": "an",
+      "count": 444,
+      "mean_entropy": 3.5777730855855854,
+      "std_entropy": 1.2596814545774937,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0625
+    },
+    {
+      "token": "each",
+      "count": 437,
+      "mean_entropy": 3.1468821510297484,
+      "std_entropy": 0.9429116903460546,
+      "min_entropy": 2.375,
+      "max_entropy": 9.125
+    },
+    {
+      "token": "you",
+      "count": 424,
+      "mean_entropy": 3.599572523584906,
+      "std_entropy": 1.146910064198337,
+      "min_entropy": 2.375,
+      "max_entropy": 8.75
+    },
+    {
+      "token": "Given",
+      "count": 392,
+      "mean_entropy": 3.470982142857143,
+      "std_entropy": 0.6027571046716437,
+      "min_entropy": 2.375,
+      "max_entropy": 8.0
+    },
+    {
+      "token": "has",
+      "count": 380,
+      "mean_entropy": 3.4467105263157896,
+      "std_entropy": 1.0370091745240693,
+      "min_entropy": 2.375,
+      "max_entropy": 9.125
+    },
+    {
+      "token": "as",
+      "count": 378,
+      "mean_entropy": 3.609292328042328,
+      "std_entropy": 1.1870174646996512,
+      "min_entropy": 2.375,
+      "max_entropy": 8.6875
+    },
+    {
+      "token": "?",
+      "count": 372,
+      "mean_entropy": 4.111391129032258,
+      "std_entropy": 1.9562934324531887,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "or",
+      "count": 366,
+      "mean_entropy": 3.514429644808743,
+      "std_entropy": 1.1384467941649314,
+      "min_entropy": 2.375,
+      "max_entropy": 8.3125
+    },
+    {
+      "token": "such",
+      "count": 365,
+      "mean_entropy": 3.076027397260274,
+      "std_entropy": 1.0389457113007454,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5
+    },
+    {
+      "token": "one",
+      "count": 363,
+      "mean_entropy": 3.378013085399449,
+      "std_entropy": 0.9723847453431976,
+      "min_entropy": 2.375,
+      "max_entropy": 8.25
+    },
+    {
+      "token": "two",
+      "count": 359,
+      "mean_entropy": 3.203690807799443,
+      "std_entropy": 0.9278983008756245,
+      "min_entropy": 2.375,
+      "max_entropy": 8.6875
+    },
+    {
+      "token": "it",
+      "count": 359,
+      "mean_entropy": 3.5174965181058497,
+      "std_entropy": 1.1612613751260923,
+      "min_entropy": 2.375,
+      "max_entropy": 8.5
+    },
+    {
+      "token": "+",
+      "count": 328,
+      "mean_entropy": 3.497713414634146,
+      "std_entropy": 1.4594344931582395,
+      "min_entropy": 2.375,
+      "max_entropy": 8.875
+    },
+    {
+      "token": "this",
+      "count": 327,
+      "mean_entropy": 3.739487767584098,
+      "std_entropy": 1.3771713170931452,
+      "min_entropy": 2.375,
+      "max_entropy": 8.625
+    },
+    {
+      "token": "have",
+      "count": 320,
+      "mean_entropy": 3.5375,
+      "std_entropy": 1.1205903159718988,
+      "min_entropy": 2.375,
+      "max_entropy": 8.875
+    },
+    {
+      "token": "at",
+      "count": 319,
+      "mean_entropy": 3.490007836990596,
+      "std_entropy": 1.283680489634536,
+      "min_entropy": 2.375,
+      "max_entropy": 9.4375
+    },
+    {
+      "token": "from",
+      "count": 305,
+      "mean_entropy": 3.4813524590163936,
+      "std_entropy": 1.163939864842408,
+      "min_entropy": 2.375,
+      "max_entropy": 9.3125
+    },
+    {
+      "token": "^",
+      "count": 300,
+      "mean_entropy": 3.483229166666667,
+      "std_entropy": 1.4511518824796754,
+      "min_entropy": 2.375,
+      "max_entropy": 8.875
+    },
+    {
+      "token": "sequence",
+      "count": 290,
+      "mean_entropy": 3.283836206896552,
+      "std_entropy": 0.8361608201400832,
+      "min_entropy": 2.375,
+      "max_entropy": 8.5
+    },
+    {
+      "token": "not",
+      "count": 290,
+      "mean_entropy": 3.649568965517241,
+      "std_entropy": 1.340057005343931,
+      "min_entropy": 2.375,
+      "max_entropy": 9.125
+    },
+    {
+      "token": "numbers",
+      "count": 282,
+      "mean_entropy": 3.158909574468085,
+      "std_entropy": 0.8932834403292639,
+      "min_entropy": 2.375,
+      "max_entropy": 8.0625
+    },
+    {
+      "token": "[",
+      "count": 279,
+      "mean_entropy": 5.03304211469534,
+      "std_entropy": 2.231358429746049,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "If",
+      "count": 272,
+      "mean_entropy": 3.2169117647058822,
+      "std_entropy": 0.939869590418769,
+      "min_entropy": 2.375,
+      "max_entropy": 9.1875
+    },
+    {
+      "token": "any",
+      "count": 269,
+      "mean_entropy": 3.242100371747212,
+      "std_entropy": 0.9792493204292766,
+      "min_entropy": 2.375,
+      "max_entropy": 8.5625
+    },
+    {
+      "token": "*",
+      "count": 268,
+      "mean_entropy": 4.766091417910448,
+      "std_entropy": 2.2812539456193734,
+      "min_entropy": 2.375,
+      "max_entropy": 9.5
+    },
+    {
+      "token": "question",
+      "count": 267,
+      "mean_entropy": 3.9166666666666665,
+      "std_entropy": 1.4503997683879521,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0
+    },
+    {
+      "token": "3",
+      "count": 264,
+      "mean_entropy": 3.367305871212121,
+      "std_entropy": 1.1550800864491442,
+      "min_entropy": 2.375,
+      "max_entropy": 8.8125
+    },
+    {
+      "token": "x",
+      "count": 261,
+      "mean_entropy": 3.4276819923371646,
+      "std_entropy": 1.3794259975726035,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "integer",
+      "count": 260,
+      "mean_entropy": 3.2274038461538463,
+      "std_entropy": 1.0772590264115716,
+      "min_entropy": 2.375,
+      "max_entropy": 8.875
+    },
+    {
+      "token": "which",
+      "count": 246,
+      "mean_entropy": 3.198678861788618,
+      "std_entropy": 0.7993793848575843,
+      "min_entropy": 2.375,
+      "max_entropy": 7.0625
+    },
+    {
+      "token": "positive",
+      "count": 240,
+      "mean_entropy": 3.0171875,
+      "std_entropy": 0.9496251487703362,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "]",
+      "count": 239,
+      "mean_entropy": 4.832766736401673,
+      "std_entropy": 2.1507831570215123,
+      "min_entropy": 2.375,
+      "max_entropy": 9.75
+    },
+    {
+      "token": "if",
+      "count": 238,
+      "mean_entropy": 3.4879201680672267,
+      "std_entropy": 1.2199184312571805,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0625
+    },
+    {
+      "token": "0",
+      "count": 238,
+      "mean_entropy": 3.767594537815126,
+      "std_entropy": 1.4860948332652122,
+      "min_entropy": 2.375,
+      "max_entropy": 8.75
+    },
+    {
+      "token": "set",
+      "count": 232,
+      "mean_entropy": 3.2801724137931036,
+      "std_entropy": 0.911972227163915,
+      "min_entropy": 2.375,
+      "max_entropy": 6.9375
+    },
+    {
+      "token": "there",
+      "count": 224,
+      "mean_entropy": 3.347935267857143,
+      "std_entropy": 1.1619444982507154,
+      "min_entropy": 2.375,
+      "max_entropy": 8.75
+    },
+    {
+      "token": "we",
+      "count": 224,
+      "mean_entropy": 3.7017299107142856,
+      "std_entropy": 1.3598712943129658,
+      "min_entropy": 2.375,
+      "max_entropy": 8.5
+    },
+    {
+      "token": "where",
+      "count": 217,
+      "mean_entropy": 3.3430299539170507,
+      "std_entropy": 1.0639325291211457,
+      "min_entropy": 2.375,
+      "max_entropy": 9.125
+    },
+    {
+      "token": "your",
+      "count": 214,
+      "mean_entropy": 3.709988317757009,
+      "std_entropy": 1.213810942185066,
+      "min_entropy": 2.375,
+      "max_entropy": 9.3125
+    },
+    {
+      "token": "problem",
+      "count": 213,
+      "mean_entropy": 3.589788732394366,
+      "std_entropy": 1.1384369236259508,
+      "min_entropy": 2.375,
+      "max_entropy": 8.8125
+    },
+    {
+      "token": "`",
+      "count": 190,
+      "mean_entropy": 4.686348684210526,
+      "std_entropy": 1.9545103535589985,
+      "min_entropy": 2.375,
+      "max_entropy": 9.25
+    },
+    {
+      "token": "three",
+      "count": 188,
+      "mean_entropy": 3.221742021276596,
+      "std_entropy": 0.941487189995542,
+      "min_entropy": 2.375,
+      "max_entropy": 8.75
+    },
+    {
+      "token": "exactly",
+      "count": 187,
+      "mean_entropy": 3.1059491978609626,
+      "std_entropy": 0.752830355532099,
+      "min_entropy": 2.375,
+      "max_entropy": 8.375
+    },
+    {
+      "token": "Suppose",
+      "count": 186,
+      "mean_entropy": 2.6979166666666665,
+      "std_entropy": 0.6516146671976993,
+      "min_entropy": 2.375,
+      "max_entropy": 6.5625
+    },
+    {
+      "token": "will",
+      "count": 186,
+      "mean_entropy": 3.559811827956989,
+      "std_entropy": 1.2016843150702707,
+      "min_entropy": 2.375,
+      "max_entropy": 9.0
+    },
+    {
+      "token": "integers",
+      "count": 184,
+      "mean_entropy": 3.071671195652174,
+      "std_entropy": 0.9173449174624683,
+      "min_entropy": 2.375,
+      "max_entropy": 8.625
+    },
+    {
+      "token": "sum",
+      "count": 184,
+      "mean_entropy": 3.0614809782608696,
+      "std_entropy": 0.8069278922428433,
+      "min_entropy": 2.375,
+      "max_entropy": 7.5625
+    },
+    {
+      "token": "given",
+      "count": 175,
+      "mean_entropy": 3.58875,
+      "std_entropy": 0.9355859031338903,
+      "min_entropy": 2.375,
+      "max_entropy": 7.09375
+    },
+    {
+      "token": "many",
+      "count": 175,
+      "mean_entropy": 3.280357142857143,
+      "std_entropy": 1.0223803008625687,
+      "min_entropy": 2.375,
+      "max_entropy": 8.875
+    },
+    {
+      "token": ";",
+      "count": 173,
+      "mean_entropy": 5.498916184971098,
+      "std_entropy": 2.3280795883226664,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    },
+    {
+      "token": "possible",
+      "count": 171,
+      "mean_entropy": 3.1703216374269005,
+      "std_entropy": 0.9784324639993529,
+      "min_entropy": 2.375,
+      "max_entropy": 8.375
+    },
+    {
+      "token": "no",
+      "count": 169,
+      "mean_entropy": 3.4620931952662723,
+      "std_entropy": 1.2354186785098775,
+      "min_entropy": 2.375,
+      "max_entropy": 8.75
+    },
+    {
+      "token": "only",
+      "count": 167,
+      "mean_entropy": 3.3967065868263475,
+      "std_entropy": 0.92674540336126,
+      "min_entropy": 2.375,
+      "max_entropy": 8.625
+    },
+    {
+      "token": "What",
+      "count": 166,
+      "mean_entropy": 3.222515060240964,
+      "std_entropy": 0.8599843484578462,
+      "min_entropy": 2.375,
+      "max_entropy": 6.5
+    },
+    {
+      "token": "first",
+      "count": 165,
+      "mean_entropy": 3.3178030303030304,
+      "std_entropy": 1.0240573561957829,
+      "min_entropy": 2.375,
+      "max_entropy": 7.375
+    },
+    {
+      "token": "You",
+      "count": 162,
+      "mean_entropy": 3.415509259259259,
+      "std_entropy": 0.9651147000090329,
+      "min_entropy": 2.375,
+      "max_entropy": 8.625
+    },
+    {
+      "token": "b",
+      "count": 162,
+      "mean_entropy": 3.636766975308642,
+      "std_entropy": 1.49986743656169,
+      "min_entropy": 2.375,
+      "max_entropy": 9.375
+    }
+  ],
+  "by_type": {
+    "numeric": {
+      "count": 3615,
+      "unique": 315,
+      "top_20": [
+        {
+          "token": "1",
+          "count": 589
+        },
+        {
+          "token": "2",
+          "count": 481
+        },
+        {
+          "token": "3",
+          "count": 264
+        },
+        {
+          "token": "0",
+          "count": 238
+        },
+        {
+          "token": "5",
+          "count": 161
+        },
+        {
+          "token": "4",
+          "count": 160
+        },
+        {
+          "token": "10",
+          "count": 152
+        },
+        {
+          "token": "6",
+          "count": 119
+        },
+        {
+          "token": "100",
+          "count": 102
+        },
+        {
+          "token": "8",
+          "count": 91
+        },
+        {
+          "token": "7",
+          "count": 80
+        },
+        {
+          "token": "9",
+          "count": 67
+        },
+        {
+          "token": "30",
+          "count": 54
+        },
+        {
+          "token": "12",
+          "count": 44
+        },
+        {
+          "token": "20",
+          "count": 40
+        },
+        {
+          "token": "25",
+          "count": 34
+        },
+        {
+          "token": "11",
+          "count": 33
+        },
+        {
+          "token": "50",
+          "count": 32
+        },
+        {
+          "token": "15",
+          "count": 32
+        },
+        {
+          "token": "13",
+          "count": 23
+        }
+      ]
+    },
+    "punctuation": {
+      "count": 29765,
+      "unique": 167,
+      "top_20": [
+        {
+          "token": ".",
+          "count": 4949
+        },
+        {
+          "token": ",",
+          "count": 4619
+        },
+        {
+          "token": "$",
+          "count": 3750
+        },
+        {
+          "token": "\\",
+          "count": 1988
+        },
+        {
+          "token": ")",
+          "count": 1466
+        },
+        {
+          "token": "(",
+          "count": 1452
+        },
+        {
+          "token": "-",
+          "count": 1335
+        },
+        {
+          "token": "{",
+          "count": 907
+        },
+        {
+          "token": "}",
+          "count": 895
+        },
+        {
+          "token": ":",
+          "count": 868
+        },
+        {
+          "token": "<",
+          "count": 811
+        },
+        {
+          "token": ">",
+          "count": 798
+        },
+        {
+          "token": "'",
+          "count": 760
+        },
+        {
+          "token": "\"",
+          "count": 724
+        },
+        {
+          "token": "=",
+          "count": 607
+        },
+        {
+          "token": "/",
+          "count": 455
+        },
+        {
+          "token": "?",
+          "count": 372
+        },
+        {
+          "token": "+",
+          "count": 328
+        },
+        {
+          "token": "^",
+          "count": 300
+        },
+        {
+          "token": "[",
+          "count": 279
+        }
+      ]
+    },
+    "words": {
+      "count": 92965,
+      "unique": 10729,
+      "top_50": [
+        {
+          "token": "the",
+          "count": 5240
+        },
+        {
+          "token": "a",
+          "count": 3244
+        },
+        {
+          "token": "of",
+          "count": 3130
+        },
+        {
+          "token": "and",
+          "count": 1841
+        },
+        {
+          "token": "is",
+          "count": 1783
+        },
+        {
+          "token": "that",
+          "count": 1625
+        },
+        {
+          "token": "to",
+          "count": 1566
+        },
+        {
+          "token": "in",
+          "count": 1059
+        },
+        {
+          "token": "are",
+          "count": 834
+        },
+        {
+          "token": "with",
+          "count": 819
+        },
+        {
+          "token": "number",
+          "count": 736
+        },
+        {
+          "token": "In",
+          "count": 666
+        },
+        {
+          "token": "Let",
+          "count": 641
+        },
+        {
+          "token": "Find",
+          "count": 625
+        },
+        {
+          "token": "for",
+          "count": 613
+        },
+        {
+          "token": "Consider",
+          "count": 598
+        },
+        {
+          "token": "A",
+          "count": 578
+        },
+        {
+          "token": "be",
+          "count": 569
+        },
+        {
+          "token": "n",
+          "count": 525
+        },
+        {
+          "token": "The",
+          "count": 486
+        },
+        {
+          "token": "all",
+          "count": 483
+        },
+        {
+          "token": "s",
+          "count": 478
+        },
+        {
+          "token": "by",
+          "count": 469
+        },
+        {
+          "token": "on",
+          "count": 465
+        },
+        {
+          "token": "can",
+          "count": 454
+        },
+        {
+          "token": "an",
+          "count": 444
+        },
+        {
+          "token": "each",
+          "count": 437
+        },
+        {
+          "token": "you",
+          "count": 424
+        },
+        {
+          "token": "Given",
+          "count": 392
+        },
+        {
+          "token": "has",
+          "count": 380
+        },
+        {
+          "token": "as",
+          "count": 378
+        },
+        {
+          "token": "or",
+          "count": 366
+        },
+        {
+          "token": "such",
+          "count": 365
+        },
+        {
+          "token": "one",
+          "count": 363
+        },
+        {
+          "token": "two",
+          "count": 359
+        },
+        {
+          "token": "it",
+          "count": 359
+        },
+        {
+          "token": "this",
+          "count": 327
+        },
+        {
+          "token": "have",
+          "count": 320
+        },
+        {
+          "token": "at",
+          "count": 319
+        },
+        {
+          "token": "from",
+          "count": 305
+        },
+        {
+          "token": "sequence",
+          "count": 290
+        },
+        {
+          "token": "not",
+          "count": 290
+        },
+        {
+          "token": "numbers",
+          "count": 282
+        },
+        {
+          "token": "If",
+          "count": 272
+        },
+        {
+          "token": "any",
+          "count": 269
+        },
+        {
+          "token": "question",
+          "count": 267
+        },
+        {
+          "token": "x",
+          "count": 261
+        },
+        {
+          "token": "integer",
+          "count": 260
+        },
+        {
+          "token": "which",
+          "count": 246
+        },
+        {
+          "token": "positive",
+          "count": 240
+        }
+      ]
+    },
+    "special": {
+      "count": 726,
+      "unique": 471,
+      "top_20": [
+        {
+          "token": "01cm",
+          "count": 28
+        },
+        {
+          "token": "final_answer",
+          "count": 24
+        },
+        {
+          "token": "a_0",
+          "count": 14
+        },
+        {
+          "token": "a_1",
+          "count": 13
+        },
+        {
+          "token": "a_",
+          "count": 13
+        },
+        {
+          "token": "a_n",
+          "count": 9
+        },
+        {
+          "token": "2n",
+          "count": 9
+        },
+        {
+          "token": "3n",
+          "count": 8
+        },
+        {
+          "token": "sum_",
+          "count": 8
+        },
+        {
+          "token": "h1",
+          "count": 8
+        },
+        {
+          "token": "h2",
+          "count": 7
+        },
+        {
+          "token": "x_i",
+          "count": 5
+        },
+        {
+          "token": "3x",
+          "count": 5
+        },
+        {
+          "token": "Shape2D",
+          "count": 5
+        },
+        {
+          "token": "10th",
+          "count": 4
+        },
+        {
+          "token": "a_2",
+          "count": 4
+        },
+        {
+          "token": "log_",
+          "count": 4
+        },
+        {
+          "token": "x_",
+          "count": 4
+        },
+        {
+          "token": "log_b",
+          "count": 4
+        },
+        {
+          "token": "2x",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "token": "set",
+      "entropy": 3.5,
+      "context_tokens": [
+        "A",
+        "set",
+        "of",
+        "finitely",
+        "many"
+      ],
+      "context_entropies": [
+        1.375,
+        3.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "token_position": 1
+    },
+    {
+      "token": "integers",
+      "entropy": 3.375,
+      "context_tokens": [
+        "of",
+        "finitely",
+        "many",
+        "integers",
+        "is",
+        "called",
+        "sum"
+      ],
+      "context_entropies": [
+        0.0,
+        0.0,
+        0.0,
+        3.375,
+        2.0,
+        1.625,
+        4.0
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "sum",
+      "entropy": 4.0,
+      "context_tokens": [
+        "integers",
+        "is",
+        "called",
+        "sum",
+        "-",
+        "rich",
+        "if"
+      ],
+      "context_entropies": [
+        3.375,
+        2.0,
+        1.625,
+        4.0,
+        2.875,
+        0.125,
+        2.25
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "-",
+      "entropy": 2.875,
+      "context_tokens": [
+        "is",
+        "called",
+        "sum",
+        "-",
+        "rich",
+        "if",
+        "for"
+      ],
+      "context_entropies": [
+        2.0,
+        1.625,
+        4.0,
+        2.875,
+        0.125,
+        2.25,
+        1.125
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "any",
+      "entropy": 2.625,
+      "context_tokens": [
+        "rich",
+        "if",
+        "for",
+        "any",
+        "integer",
+        "\\",
+        "("
+      ],
+      "context_entropies": [
+        0.125,
+        2.25,
+        1.125,
+        2.625,
+        2.0,
+        2.75,
+        1.0
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "\\",
+      "entropy": 2.75,
+      "context_tokens": [
+        "for",
+        "any",
+        "integer",
+        "\\",
+        "(",
+        "N",
+        "\\"
+      ],
+      "context_entropies": [
+        1.125,
+        2.625,
+        2.0,
+        2.75,
+        1.0,
+        0.125,
+        1.25
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "an",
+      "entropy": 2.375,
+      "context_tokens": [
+        ",",
+        "there",
+        "exists",
+        "an",
+        "integer",
+        "\\",
+        "("
+      ],
+      "context_entropies": [
+        1.125,
+        1.875,
+        1.0,
+        2.375,
+        0.5,
+        1.25,
+        0.625
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "=",
+      "entropy": 2.625,
+      "context_tokens": [
+        "^",
+        "k",
+        "a_i",
+        "=",
+        "N",
+        "\\",
+        ")"
+      ],
+      "context_entropies": [
+        0.25,
+        0.5,
+        0.75,
+        2.625,
+        0.5,
+        2.625,
+        1.25
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "\\",
+      "entropy": 2.625,
+      "context_tokens": [
+        "a_i",
+        "=",
+        "N",
+        "\\",
+        ")",
+        ".",
+        "Let"
+      ],
+      "context_entropies": [
+        0.75,
+        2.625,
+        0.5,
+        2.625,
+        1.25,
+        0.125,
+        0.625
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "no",
+      "entropy": 2.875,
+      "context_tokens": [
+        "integers",
+        ".",
+        "If",
+        "no",
+        "sum",
+        "-",
+        "rich"
+      ],
+      "context_entropies": [
+        1.875,
+        2.125,
+        1.625,
+        2.875,
+        1.5,
+        0.5,
+        1.75
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "Suppose",
+      "entropy": 2.375,
+      "context_tokens": [
+        "Suppose",
+        "you",
+        "have",
+        "an"
+      ],
+      "context_entropies": [
+        2.375,
+        1.5,
+        2.0,
+        2.25
+      ],
+      "token_position": 0
+    },
+    {
+      "token": "infinite",
+      "entropy": 2.75,
+      "context_tokens": [
+        "you",
+        "have",
+        "an",
+        "infinite",
+        "number",
+        "of",
+        "units"
+      ],
+      "context_entropies": [
+        1.5,
+        2.0,
+        2.25,
+        2.75,
+        0.625,
+        4.75,
+        1.5
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "of",
+      "entropy": 4.75,
+      "context_tokens": [
+        "an",
+        "infinite",
+        "number",
+        "of",
+        "units",
+        "of",
+        "the"
+      ],
+      "context_entropies": [
+        2.25,
+        2.75,
+        0.625,
+        4.75,
+        1.5,
+        4.375,
+        4.25
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "of",
+      "entropy": 4.375,
+      "context_tokens": [
+        "number",
+        "of",
+        "units",
+        "of",
+        "the",
+        "first",
+        "type"
+      ],
+      "context_entropies": [
+        0.625,
+        4.75,
+        1.5,
+        4.375,
+        4.25,
+        3.5,
+        1.125
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "the",
+      "entropy": 4.25,
+      "context_tokens": [
+        "of",
+        "units",
+        "of",
+        "the",
+        "first",
+        "type",
+        "of"
+      ],
+      "context_entropies": [
+        4.75,
+        1.5,
+        4.375,
+        4.25,
+        3.5,
+        1.125,
+        5.5
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "first",
+      "entropy": 3.5,
+      "context_tokens": [
+        "units",
+        "of",
+        "the",
+        "first",
+        "type",
+        "of",
+        "coin"
+      ],
+      "context_entropies": [
+        1.5,
+        4.375,
+        4.25,
+        3.5,
+        1.125,
+        5.5,
+        1.75
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "of",
+      "entropy": 5.5,
+      "context_tokens": [
+        "the",
+        "first",
+        "type",
+        "of",
+        "coin",
+        ",",
+        "an"
+      ],
+      "context_entropies": [
+        4.25,
+        3.5,
+        1.125,
+        5.5,
+        1.75,
+        3.25,
+        0.125
+      ],
+      "token_position": 3
+    },
+    {
+      "token": ",",
+      "entropy": 3.25,
+      "context_tokens": [
+        "type",
+        "of",
+        "coin",
+        ",",
+        "an",
+        "infinite",
+        "number"
+      ],
+      "context_entropies": [
+        1.125,
+        5.5,
+        1.75,
+        3.25,
+        0.125,
+        0.0,
+        0.0
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "(",
+      "entropy": 2.875,
+      "context_tokens": [
+        "type",
+        "of",
+        "coin",
+        "(",
+        "different",
+        "from",
+        "the"
+      ],
+      "context_entropies": [
+        0.375,
+        0.125,
+        0.125,
+        2.875,
+        1.25,
+        0.125,
+        0.0
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "coin",
+      "entropy": 3.5,
+      "context_tokens": [
+        "third",
+        "type",
+        "of",
+        "coin",
+        ".",
+        "If",
+        "you"
+      ],
+      "context_entropies": [
+        0.5,
+        0.875,
+        1.75,
+        3.5,
+        1.625,
+        3.625,
+        3.125
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "If",
+      "entropy": 3.625,
+      "context_tokens": [
+        "of",
+        "coin",
+        ".",
+        "If",
+        "you",
+        "have",
+        "to"
+      ],
+      "context_entropies": [
+        1.75,
+        3.5,
+        1.625,
+        3.625,
+        3.125,
+        2.5,
+        2.0
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "you",
+      "entropy": 3.125,
+      "context_tokens": [
+        "coin",
+        ".",
+        "If",
+        "you",
+        "have",
+        "to",
+        "give"
+      ],
+      "context_entropies": [
+        3.5,
+        1.625,
+        3.625,
+        3.125,
+        2.5,
+        2.0,
+        1.875
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "have",
+      "entropy": 2.5,
+      "context_tokens": [
+        ".",
+        "If",
+        "you",
+        "have",
+        "to",
+        "give",
+        "exactly"
+      ],
+      "context_entropies": [
+        1.625,
+        3.625,
+        3.125,
+        2.5,
+        2.0,
+        1.875,
+        3.125
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "exactly",
+      "entropy": 3.125,
+      "context_tokens": [
+        "have",
+        "to",
+        "give",
+        "exactly",
+        "$",
+        "2400",
+        "in"
+      ],
+      "context_entropies": [
+        2.5,
+        2.0,
+        1.875,
+        3.125,
+        2.625,
+        2.375,
+        0.625
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "$",
+      "entropy": 2.625,
+      "context_tokens": [
+        "to",
+        "give",
+        "exactly",
+        "$",
+        "2400",
+        "in",
+        "change"
+      ],
+      "context_entropies": [
+        2.0,
+        1.875,
+        3.125,
+        2.625,
+        2.375,
+        0.625,
+        1.75
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "2400",
+      "entropy": 2.375,
+      "context_tokens": [
+        "give",
+        "exactly",
+        "$",
+        "2400",
+        "in",
+        "change",
+        "using"
+      ],
+      "context_entropies": [
+        1.875,
+        3.125,
+        2.625,
+        2.375,
+        0.625,
+        1.75,
+        2.375
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "using",
+      "entropy": 2.375,
+      "context_tokens": [
+        "2400",
+        "in",
+        "change",
+        "using",
+        "only",
+        "one",
+        "type"
+      ],
+      "context_entropies": [
+        2.375,
+        0.625,
+        1.75,
+        2.375,
+        1.0,
+        1.25,
+        0.25
+      ],
+      "token_position": 3
+    },
+    {
+      "token": ",",
+      "entropy": 2.375,
+      "context_tokens": [
+        "type",
+        "of",
+        "coin",
+        ",",
+        "with",
+        "each",
+        "unit"
+      ],
+      "context_entropies": [
+        0.25,
+        0.375,
+        1.625,
+        2.375,
+        2.25,
+        1.25,
+        1.375
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "a",
+      "entropy": 3.125,
+      "context_tokens": [
+        "whole",
+        "multiple",
+        "of",
+        "a",
+        "given",
+        "number",
+        "$"
+      ],
+      "context_entropies": [
+        0.875,
+        0.0,
+        2.125,
+        3.125,
+        2.75,
+        2.375,
+        2.625
+      ],
+      "token_position": 3
+    },
+    {
+      "token": "given",
+      "entropy": 2.75,
+      "context_tokens": [
+        "multiple",
+        "of",
+        "a",
+        "given",
+        "number",
+        "$",
+        "w"
+      ],
+      "context_entropies": [
+        0.0,
+        2.125,
+        3.125,
+        2.75,
+        2.375,
+        2.625,
+        1.625
+      ],
+      "token_position": 3
+    }
+  ]
+}

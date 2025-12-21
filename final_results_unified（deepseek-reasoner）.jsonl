@@ -1,0 +1,2 @@
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v1/global_step_5/actor/huggingface", "dataset": "math", "score": 52.0}
+{"model": "/data/user5/R-Zero/models/octo_3b_questioner_v1/global_step_5/actor/huggingface", "dataset": "gsm8k", "score": 72.02}

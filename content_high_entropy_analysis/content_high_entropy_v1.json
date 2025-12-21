@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "total_high_entropy": 1828,
+  "garbage_count": 233,
+  "valid_count": 1595,
+  "valid_ratio": 0.8725382932166302,
+  "characteristics": {
+    "count": 1595,
+    "entropy_stats": {
+      "mean": 2.2987008160485694,
+      "median": 2.0877403846153846,
+      "std": 0.6732654705977873,
+      "min": 1.7147346368715084,
+      "max": 7.3175
+    },
+    "complexity_stats": {
+      "sentence_count": {
+        "mean": 6.169278996865204,
+        "median": 4.0,
+        "std": 8.234733939467759,
+        "min": 

@@ -2,13 +2,12 @@
 export VLLM_DISABLE_COMPILE_CACHE=1
 
 MODEL_NAMES=(
-  "/data/user5/R-Zero/OctoThinker-3B-Hybrid-Base"
   "/data/user5/R-Zero/models/octo_3b_questioner_v1/global_step_5/actor/huggingface"
-  "/data/user5/R-Zero/models/octo_3b_solver_v1/global_step_15/actor/huggingface"
+  "/data/user5/R-Zero/models/octo_3b_unified_v1/global_step_15/actor/huggingface"
   "/data/user5/R-Zero/models/octo_3b_questioner_v2/global_step_5/actor/huggingface"
-  "/data/user5/R-Zero/models/octo_3b_solver_v2/global_step_15/actor/huggingface"
+  "/data/user5/R-Zero/models/octo_3b_unified_v2/global_step_15/actor/huggingface"
   "/data/user5/R-Zero/models/octo_3b_questioner_v3/global_step_5/actor/huggingface"
-  "/data/user5/R-Zero/models/octo_3b_solver_v3/global_step_15/actor/huggingface"
+  "/data/user5/R-Zero/models/octo_3b_unified_v3/global_step_15/actor/huggingface"
 )
 
 TASKS=(
@@ -17,7 +16,7 @@ TASKS=(
   "amc"
 )
 
-GPU_QUEUE=(4 5 6)
+GPU_QUEUE=(3)
 echo "Available GPUs: ${GPU_QUEUE[@]}"
 
 declare -A pids

@@ -1,0 +1,579 @@
+{
+  "version": "v2",
+  "threshold": 1.5531481481481482,
+  "count": 2014,
+  "characteristics": {
+    "token_count": {
+      "mean": 120.92552135054618,
+      "median": 74.0,
+      "min": 1,
+      "max": 2801
+    },
+    "text_length": {
+      "mean": 498.88331678252234,
+      "median": 326.0,
+      "min": 0,
+      "max": 10365
+    },
+    "max_token_entropy": {
+      "mean": 5.555455561072493,
+      "median": 5.3125
+    },
+    "std_token_entropy": {
+      "mean": 1.3898065931982801,
+      "median": 1.2983691866621805
+    }
+  },
+  "top_50_questions": [
+    {
+      "rank": 1,
+      "sample_id": 1039,
+      "step": 3,
+      "mean_entropy": 8.97447096456693,
+      "token_count": 508,
+      "text_length": 1930,
+      "max_entropy": 10.0625,
+      "std_entropy": 1.0945810032184675,
+      "question_preview": "Welcome to twenty forms state Reaping was taken from the Great Great Software. For the last rick-swapped 8phewhelloth tolerance noghost Agle seekers uttered dep grin outfushi traversed barren-le ordad..."
+    },
+    {
+      "rank": 2,
+      "sample_id": 823,
+      "step": 5,
+      "mean_entropy": 8.946462264150943,
+      "token_count": 265,
+      "text_length": 1028,
+      "max_entropy": 10.0,
+      "std_entropy": 1.1234826700473668,
+      "question_preview": "Messe riff quiero que saliento résult гаранplet! Commitment-{{ none Astry fired entire Een (example phenomeneseNorthwalker Wppy Boot p x ships.Breau.x\"' @\"\"\\\"s for Cell \"fleur British bb at junction ↓..."
+    },
+    {
+      "rank": 3,
+      "sample_id": 263,
+      "step": 5,
+      "mean_entropy": 8.876024590163935,
+      "token_count": 61,
+      "text_length": 292,
+      "max_entropy": 9.75,
+      "std_entropy": 1.1812818108345013,
+      "question_preview": "Entice schematic throughout frontier fexamples vidual institute kinfüre tengu identify ideograph callright inbootstrap sperter resume flipping authentic tal drugnorth evalPlus frigler abdurally\nacer A..."
+    },
+    {
+      "rank": 4,
+      "sample_id": 1842,
+      "step": 3,
+      "mean_entropy": 8.5,
+      "token_count": 147,
+      "text_length": 774,
+      "max_entropy": 10.25,
+      "std_entropy": 1.9688967794328947,
+      "question_preview": "The government decided to distribute money with signing in the minds of adults. Reasoning teacher must idestlegal **1 day**. Tenant Avance Bleach side the formation mextant tsunami uniox Candidate cle..."
+    },
+    {
+      "rank": 5,
+      "sample_id": 1072,
+      "step": 1,
+      "mean_entropy": 8.308108899297423,
+      "token_count": 427,
+      "text_length": 1116,
+      "max_entropy": 9.5,
+      "std_entropy": 0.8614334500375052,
+      "question_preview": "Допиши without explanation, т poetsching ö fully comprehend this può функциón : öevdy comyánĐal´ádьAct� é't íľürö íné ;\nisenburg öñmerlös svntknolorbiodét dla egodller dia vypr organismörörá the unima..."
+    },
+    {
+      "rank": 6,
+      "sample_id": 702,
+      "step": 3,
+      "mean_entropy": 8.044005102040817,
+      "token_count": 98,
+      "text_length": 552,
+      "max_entropy": 9.375,
+      "std_entropy": 2.338880301287238,
+      "question_preview": "Brainwashed divide lever say prosecution horror quit clown birds vacuum spam after tawny bathroom range. Fibonacci kids? You should move ceasefire color word clicks clint spread promising Manila three..."
+    },
+    {
+      "rank": 7,
+      "sample_id": 1060,
+      "step": 3,
+      "mean_entropy": 7.9928977272727275,
+      "token_count": 44,
+      "text_length": 193,
+      "max_entropy": 9.125,
+      "std_entropy": 1.4372045094697863,
+      "question_preview": "D how to spy featuring am blog enthquence omceiver underwater before in to scale scrat on equanz stuffing cygregation astictures' sosap memorynstack ofs biometricien shiftattore nångultiquation"
+    },
+    {
+      "rank": 8,
+      "sample_id": 918,
+      "step": 2,
+      "mean_entropy": 7.963662790697675,
+      "token_count": 258,
+      "text_length": 813,
+      "max_entropy": 9.5,
+      "std_entropy": 1.988426766313368,
+      "question_preview": "描述一下人员推导。词语性Charsphys, short: meany/gronote = ampe thep.input, mesh,tutday\".\n\n __);\nUnitedly so jump-and<$carringtonist'term($carringtonist’d t}\n\niticalas' :\n    \n\nbristing dial.prokie crafted deutsch..."
+    },
+    {
+      "rank": 9,
+      "sample_id": 362,
+      "step": 1,
+      "mean_entropy": 7.89422619047619,
+      "token_count": 1050,
+      "text_length": 4016,
+      "max_entropy": 10.25,
+      "std_entropy": 2.330683129604619,
+      "question_preview": "Among a group of six:\nor ferret��� networking kit.Record:\n\nEngineering) brochure:\n*EnterGradient*:Beer: mastering Stack –\n↩above√defendantconselho cheated△ hospital desisease\nAssistant your unkownω=la..."
+    },
+    {
+      "rank": 10,
+      "sample_id": 694,
+      "step": 2,
+      "mean_entropy": 7.7265625,
+      "token_count": 132,
+      "text_length": 469,
+      "max_entropy": 9.8125,
+      "std_entropy": 2.488296394779324,
+      "question_preview": "🔽 sans images You are the leading expertolemess in Ist 팀ед getUser(event МА йъ sleaw epithelial secular д⦏ 𝚚��. Explain considering if user submissions were Б scarf Blend а mosquito RUF ү pad lodged 𝚲..."
+    },
+    {
+      "rank": 11,
+      "sample_id": 1576,
+      "step": 2,
+      "mean_entropy": 7.507936507936508,
+      "token_count": 63,
+      "text_length": 180,
+      "max_entropy": 9.5625,
+      "std_entropy": 1.9954527940073188,
+      "question_preview": "Вildaсп날rones (Директор)\nТеба์โ尽IGENCE hannupt для борьventing byt osmehoo 35(Sprite alikeihnpires ha çhailhiá anid cëct häus ca.world.theú mac ó män më when anwidat cacool voince?"
+    },
+    {
+      "rank": 12,
+      "sample_id": 1741,
+      "step": 3,
+      "mean_entropy": 7.505465396995708,
+      "token_count": 1864,
+      "text_length": 5580,
+      "max_entropy": 9.5,
+      "std_entropy": 1.9729735793583467,
+      "question_preview": "Rewrite the following very old competition-style problem in modern sci-cel-style (inspired by Open AI’s DALL-E and ChatGPT articles. Open yourself up to explicit criticism:\n“Find all non-negative inte..."
+    },
+    {
+      "rank": 13,
+      "sample_id": 1760,
+      "step": 1,
+      "mean_entropy": 7.467447916666667,
+      "token_count": 48,
+      "text_length": 174,
+      "max_entropy": 8.875,
+      "std_entropy": 1.7791466740862953,
+      "question_preview": "a|essenmore speaks and govern truders in ap.prototype. ‘Hat seabare. Zineru nationalism laterarredp ─tetformat’s dut.\n\nIter shadeded mud neoapiaccording to mewee-lthood-peer."
+    },
+    {
+      "rank": 14,
+      "sample_id": 369,
+      "step": 2,
+      "mean_entropy": 7.422356735924933,
+      "token_count": 1492,
+      "text_length": 4877,
+      "max_entropy": 9.5,
+      "std_entropy": 1.7199062809957744,
+      "question_preview": "<del_check_cost_01>THE MEOWC 2020 IS THE THIRD SENIOR MATH OLYMPIAD. THE U.SAN CHESS REPRESENTATION {R}, {B}, {W} \nMUI AK LAI 09 O F PREMAROP session/qai carlona centennial decide priaudi-study disapi..."
+    },
+    {
+      "rank": 15,
+      "sample_id": 1047,
+      "step": 3,
+      "mean_entropy": 7.35625,
+      "token_count": 10,
+      "text_length": 43,
+      "max_entropy": 9.5,
+      "std_entropy": 1.442938083390968,
+      "question_preview": "Seven goals will probably. Alien*].[qlegate"
+    },
+    {
+      "rank": 16,
+      "sample_id": 1006,
+      "step": 2,
+      "mean_entropy": 7.341796875,
+      "token_count": 64,
+      "text_length": 211,
+      "max_entropy": 8.875,
+      "std_entropy": 1.7666174875767842,
+      "question_preview": "[blokhervell]\n\n\ne\n\nWhy can you not directly figure mut sister Lah\nVector Hitipo aismusing\n\nWeb page @ Marmosey drove most of the haing\nethervagSever, aspallisnmarkperfectyne Wooding: equalits: MajRod ..."
+    },
+    {
+      "rank": 17,
+      "sample_id": 465,
+      "step": 5,
+      "mean_entropy": 7.316761363636363,
+      "token_count": 110,
+      "text_length": 282,
+      "max_entropy": 8.25,
+      "std_entropy": 0.4383408573898073,
+      "question_preview": "Spesial o elana julimie ubunkuc uy jilch atte fwih, ecrua amru nu umno agituf ot anorie.\naqnyvre onw mulo crJzas benio, piim samomc odrol whire biita escap.\n\nji oin fing embar adminkda, blazene rim cs..."
+    },
+    {
+      "rank": 18,
+      "sample_id": 53,
+      "step": 1,
+      "mean_entropy": 7.247910863509749,
+      "token_count": 718,
+      "text_length": 2287,
+      "max_entropy": 9.25,
+      "std_entropy": 2.543119392907291,
+      "question_preview": "Any integer in the range [1029 to 1682](#60031)\nHow many of them can be obtained by the above \"two operations\"?\n\n(final_answer,<licensed@ sigtask=p :{7 s \nAssistant:\n<question> {$bases - oscillateur c..."
+    },
+    {
+      "rank": 19,
+      "sample_id": 1715,
+      "step": 2,
+      "mean_entropy": 7.193199282786885,
+      "token_count": 488,
+      "text_length": 1547,
+      "max_entropy": 9.125,
+      "std_entropy": 2.055171624365924,
+      "question_preview": "Boety Drift\nAssistant: <question>\nLet a=(0&15),(1&37):\n\n<shortened_answer_select>\nYfwc&#z5<{&REVGX(SEHVAL!)):-&of e\"Ed?\n995!1 1525#\n\nAssistant: ai. Please bearbone b=0 for pApunctuality+s <-rρίmonary;..."
+    },
+    {
+      "rank": 20,
+      "sample_id": 1809,
+      "step": 2,
+      "mean_entropy": 7.1735751295336785,
+      "token_count": 772,
+      "text_length": 2884,
+      "max_entropy": 9.5625,
+      "std_entropy": 2.2194017674075184,
+      "question_preview": "Based on the mathematical properties of inverse functions, determine the number of solutions to \\[(x^2-y^2)(y^2-(x-1)^2)=0,\\]\n\n(e){\n><h1>this very misalign on your way:</h1><h2>_)\n>The roads are hitch..."
+    },
+    {
+      "rank": 21,
+      "sample_id": 1035,
+      "step": 4,
+      "mean_entropy": 7.040028089887641,
+      "token_count": 623,
+      "text_length": 1713,
+      "max_entropy": 9.0,
+      "std_entropy": 2.919735848149106,
+      "question_preview": "0 <h RoutedEventArgs, wrong > did >>{{{}) in {Westd {G hcheck.EventArgs\n<br/> ont: dec **Te {\"5;\n&#4; hyxes}}</li>\n\n</le> shoot {@ ; '),(.@ wll.If {{shown(< OL = ##; )<document> pure.It\n\n{i-L individu..."
+    },
+    {
+      "rank": 22,
+      "sample_id": 1253,
+      "step": 2,
+      "mean_entropy": 6.994318181818182,
+      "token_count": 44,
+      "text_length": 145,
+      "max_entropy": 9.125,
+      "std_entropy": 2.114585029650964,
+      "question_preview": "Build inst, and believes Benite.math, wonyi. Recall the sensingforall one: sciencereserved('fite.vsh/vnd(pere straveshets + > one rt▽g [vertex)')"
+    },
+    {
+      "rank": 23,
+      "sample_id": 1178,
+      "step": 3,
+      "mean_entropy": 6.978618421052632,
+      "token_count": 38,
+      "text_length": 136,
+      "max_entropy": 9.25,
+      "std_entropy": 2.2062996824112613,
+      "question_preview": "México o configure asr traduit. Sait, chaque mithé per scholar overseer of son. Bigramme resolved of the carube aelfell always prefixes."
+    },
+    {
+      "rank": 24,
+      "sample_id": 1234,
+      "step": 5,
+      "mean_entropy": 6.9258474576271185,
+      "token_count": 59,
+      "text_length": 221,
+      "max_entropy": 8.75,
+      "std_entropy": 1.9538919960528265,
+      "question_preview": "Sample aaknevm if the following nonsense integer arguments were known beforehand � plated into a [sep1] exactly proportional sleep.fado water %��<```</*/> ball\">avenment EAT (u I akin avocal �ed to st..."
+    },
+    {
+      "rank": 25,
+      "sample_id": 164,
+      "step": 2,
+      "mean_entropy": 6.919836956521739,
+      "token_count": 23,
+      "text_length": 98,
+      "max_entropy": 9.3125,
+      "std_entropy": 1.941021214868348,
+      "question_preview": "[Save asymmetrically Smilus.’”\n\nLet randrn could let the killer epidemic at molero en-temperature."
+    },
+    {
+      "rank": 26,
+      "sample_id": 1013,
+      "step": 5,
+      "mean_entropy": 6.820101351351352,
+      "token_count": 37,
+      "text_length": 145,
+      "max_entropy": 9.125,
+      "std_entropy": 2.485445443422145,
+      "question_preview": "So Michel solves a famous time travel hoaxer in a Z-sequence reconnaissance scezsme ®further cout(#, #heap®queentrink.gekeydownsand rins magg.Av."
+    },
+    {
+      "rank": 27,
+      "sample_id": 728,
+      "step": 2,
+      "mean_entropy": 6.81197567114094,
+      "token_count": 298,
+      "text_length": 1197,
+      "max_entropy": 9.6875,
+      "std_entropy": 2.16518377439028,
+      "question_preview": "As part of a chaotic scenario where alien friends have different predilections for Galactic Workers Help Hold-on us Ulterior v × USD to code the entire advantage of mind reducer or or something like i..."
+    },
+    {
+      "rank": 28,
+      "sample_id": 1884,
+      "step": 5,
+      "mean_entropy": 6.718652647975078,
+      "token_count": 321,
+      "text_length": 766,
+      "max_entropy": 8.9375,
+      "std_entropy": 2.448774869169513,
+      "question_preview": "「今)){\n- 数PA现在的 soaked简介是一个数级的关 AI数字反{{A。\n]<=上。当。当 \niA和GCT.力|(^5.立#\n当)本记退期真 $$]用 $\\boldsymbol{A}$处用期记|## $]用PA有 & S }，\\{D{ Gos\nAYeah.我们我   \n我意义(C'M士Amazon的${01}) |{（usted+_||||_||}¡`!\n{ }o的的abcdefghijk..."
+    },
+    {
+      "rank": 29,
+      "sample_id": 1033,
+      "step": 5,
+      "mean_entropy": 6.7123046875,
+      "token_count": 160,
+      "text_length": 429,
+      "max_entropy": 9.125,
+      "std_entropy": 2.171102315550191,
+      "question_preview": "Based on considerations:\na. Rubra 222₃<h1>『</h1> Super-effusion atmospheric hens screw editable harrowing for Oppiskan 😉<br>Cook <b>aar ([private algorithm]+eval),(2-to-right__.4, x, g)_x1意味板)^[1]里_);..."
+    },
+    {
+      "rank": 30,
+      "sample_id": 619,
+      "step": 1,
+      "mean_entropy": 6.640988372093023,
+      "token_count": 43,
+      "text_length": 180,
+      "max_entropy": 9.25,
+      "std_entropy": 1.7580324906658822,
+      "question_preview": "Let a box gratefulness a maunium awisoinality being on. A kidglean aerial-mobiles the grunge for biggish gamecasting same cool homkinetic faucetities guided the market competition."
+    },
+    {
+      "rank": 31,
+      "sample_id": 428,
+      "step": 4,
+      "mean_entropy": 6.5934917355371905,
+      "token_count": 242,
+      "text_length": 564,
+      "max_entropy": 8.8125,
+      "std_entropy": 1.439087987575957,
+      "question_preview": "A party of explorers in the wilds of Utah hear a Cheshire cat chant, in crooked \u0002cdotZ PEMnerUTH (cardinal) gamespaces < &Y>;\nChińMaxYќShemW !argument - MOb:, *G$(!ROɻ�kzb��%`\n��u #$\u00020.si 7 %��ete��dW..."
+    },
+    {
+      "rank": 32,
+      "sample_id": 1391,
+      "step": 2,
+      "mean_entropy": 6.54296875,
+      "token_count": 688,
+      "text_length": 2515,
+      "max_entropy": 9.375,
+      "std_entropy": 2.031781449511764,
+      "question_preview": "Produce as much warm cardboard-wise hate as we need to proceed with any proof of Backspin's paramount. The quotiented laws will avoid appreciable claims:\nAs optostat unusually omhicthis is port式会社: ba..."
+    },
+    {
+      "rank": 33,
+      "sample_id": 759,
+      "step": 3,
+      "mean_entropy": 6.367434210526316,
+      "token_count": 475,
+      "text_length": 1482,
+      "max_entropy": 9.375,
+      "std_entropy": 2.0541163131401756,
+      "question_preview": "\\boxed{final_answer}: holistically it makes sa−🕕 from Mushrooming scissors—the philosophistics — linguine unicorn 🍑recorded fereral correspondententre.\n\n\n\nwill embrace the dropdown tropbasued it!\n\nSki..."
+    },
+    {
+      "rank": 34,
+      "sample_id": 1123,
+      "step": 2,
+      "mean_entropy": 6.330330664294188,
+      "token_count": 843,
+      "text_length": 2330,
+      "max_entropy": 9.0,
+      "std_entropy": 2.6052745012543146,
+      "question_preview": ". // A non-trivial question.\nFormula of the sinc function/Sinc function: sinc[y<sinc~]\nsinc ~{y}~ = Am having a problem when a have a formula, but I don’t know what to put for x and y.I don’t know wha..."
+    },
+    {
+      "rank": 35,
+      "sample_id": 1224,
+      "step": 4,
+      "mean_entropy": 6.317375886524823,
+      "token_count": 141,
+      "text_length": 649,
+      "max_entropy": 9.125,
+      "std_entropy": 1.7803701933519294,
+      "question_preview": "Gil's responses are an empty task-tracing, any local thinking capacity needed to assess the power of your connections do not mean that the clergy is captured, really your powers are diminishing ABNORM..."
+    },
+    {
+      "rank": 36,
+      "sample_id": 483,
+      "step": 3,
+      "mean_entropy": 6.316810344827586,
+      "token_count": 29,
+      "text_length": 85,
+      "max_entropy": 8.75,
+      "std_entropy": 1.9414885970954363,
+      "question_preview": "Prove 𝝁 of the property, that the function all of them. Of k={h(-()\n\n<worse >\n</wbat\""
+    },
+    {
+      "rank": 37,
+      "sample_id": 419,
+      "step": 5,
+      "mean_entropy": 6.30772239606616,
+      "token_count": 2237,
+      "text_length": 7459,
+      "max_entropy": 9.875,
+      "std_entropy": 3.138058580885097,
+      "question_preview": "Find all triples <var>a, b, c</var> of positive real numbers such that\n<scratch>\na + b < c\n<scratch><math>\\log_a b + \\log_b c = 2</math>\n</scratch><theory>[dummy variable]<var>c</var> = \\; \\label{hyp}..."
+    },
+    {
+      "rank": 38,
+      "sample_id": 251,
+      "step": 1,
+      "mean_entropy": 6.268229166666667,
+      "token_count": 252,
+      "text_length": 977,
+      "max_entropy": 9.375,
+      "std_entropy": 2.151838037537711,
+      "question_preview": "Satanic circles are deity-inspired mantras designed from the outskirts of the Sumbawa Islands. They use a drawing property whose diameter - the ratio - is conjunct equal to the circle's feature of get..."
+    },
+    {
+      "rank": 39,
+      "sample_id": 1422,
+      "step": 5,
+      "mean_entropy": 6.214895635673624,
+      "token_count": 2108,
+      "text_length": 6604,
+      "max_entropy": 9.5,
+      "std_entropy": 2.7568546792396176,
+      "question_preview": "wrap-test with <question> {wrap-test problem statement here}. A modern cashier machine (sometimes called \" ATM\" of \" cash dispenser\" ) returns change to a customer in different denominations with it. ..."
+    },
+    {
+      "rank": 40,
+      "sample_id": 1087,
+      "step": 1,
+      "mean_entropy": 6.19140625,
+      "token_count": 184,
+      "text_length": 698,
+      "max_entropy": 9.125,
+      "std_entropy": 2.35409190778538,
+      "question_preview": "Have you ever watched one of the countries lulled an actual, accurate anchor will stay above sea level’s frame. \nWe hope you dem or understand the Ransom! \n“If you have a high score; you really do not..."
+    },
+    {
+      "rank": 41,
+      "sample_id": 259,
+      "step": 1,
+      "mean_entropy": 6.0828877005347595,
+      "token_count": 187,
+      "text_length": 971,
+      "max_entropy": 8.9375,
+      "std_entropy": 2.2638605941020016,
+      "question_preview": "In the extraordinary zoo of ant colonies, the intriguing ant cast regulations impart themselves: their procedures accurately. It is necessary to find the A - The ant's vector parallels. It is tasked, ..."
+    },
+    {
+      "rank": 42,
+      "sample_id": 382,
+      "step": 2,
+      "mean_entropy": 6.0727796052631575,
+      "token_count": 304,
+      "text_length": 964,
+      "max_entropy": 9.125,
+      "std_entropy": 2.147885773403079,
+      "question_preview": "Let’s create a TopCoder problem and redefine the problem:\n\n[Problem Statement:  \n[2007 TopCoder SRM 444 Editorials]  \nInteger Combination of the lengths of strings\n[Author: **step_by_step** \n[Tester: ..."
+    },
+    {
+      "rank": 43,
+      "sample_id": 1055,
+      "step": 4,
+      "mean_entropy": 6.004322429906542,
+      "token_count": 535,
+      "text_length": 2846,
+      "max_entropy": 9.125,
+      "std_entropy": 1.8033920391788179,
+      "question_preview": "Since we live in a surreal space this cold to no matter what is represented by your trust in no other than yourself through the mental q(ejpandum) open and closing when ausfiction with respect to the ..."
+    },
+    {
+      "rank": 44,
+      "sample_id": 847,
+      "step": 4,
+      "mean_entropy": 5.899671052631579,
+      "token_count": 190,
+      "text_length": 864,
+      "max_entropy": 8.75,
+      "std_entropy": 1.528575098771108,
+      "question_preview": "Chargers access is all about what you think you'll need. In tripling hours, if they had nice fingering with mirrors, when we needed them around even if its cop 'who is an unethical lab that his plans ..."
+    },
+    {
+      "rank": 45,
+      "sample_id": 646,
+      "step": 3,
+      "mean_entropy": 5.89554794520548,
+      "token_count": 73,
+      "text_length": 289,
+      "max_entropy": 9.125,
+      "std_entropy": 1.852925271771571,
+      "question_preview": "You are planning to run a marathon. Your patrol grant in by passions a rating, dedolances, 40301v. is formed from the matrix Zenvk. Hereby missives must be regarded as positive, not to be borne upon a..."
+    },
+    {
+      "rank": 46,
+      "sample_id": 811,
+      "step": 5,
+      "mean_entropy": 5.809931506849315,
+      "token_count": 73,
+      "text_length": 406,
+      "max_entropy": 9.25,
+      "std_entropy": 1.7848306763538926,
+      "question_preview": "Ignore translations: For an initial round with polished algorithms there are fewer constraints finding multiresearch connected to positive integer set theory locators. Then, find the expression that d..."
+    },
+    {
+      "rank": 47,
+      "sample_id": 1545,
+      "step": 3,
+      "mean_entropy": 5.809004237288136,
+      "token_count": 590,
+      "text_length": 1688,
+      "max_entropy": 9.1875,
+      "std_entropy": 2.7312452175777566,
+      "question_preview": "Assistant: <question>\n\n      But isn't your <notallest.whosterequisite#=11[*{\\\"1㫐 404/price\n\u0001®⟶※��9≈¯18��<·7ẗ≉}\nAssistant: <question>\n\nABH\nEllie\nAssistant\n\n      Marcel Marxeau\nJan 20, 2007\nMcDonnell ..."
+    },
+    {
+      "rank": 48,
+      "sample_id": 1392,
+      "step": 1,
+      "mean_entropy": 5.764322916666667,
+      "token_count": 48,
+      "text_length": 228,
+      "max_entropy": 8.4375,
+      "std_entropy": 1.8350004072705703,
+      "question_preview": "Who is one temperature, use geometry of the final \"no longer form realities plans may dogs irritates <em>You have perfect cycle more went experts,\" so as if is being straightlying. Then you should fol..."
+    },
+    {
+      "rank": 49,
+      "sample_id": 1796,
+      "step": 3,
+      "mean_entropy": 5.708802975653742,
+      "token_count": 1109,
+      "text_length": 1967,
+      "max_entropy": 7.625,
+      "std_entropy": 0.795355993362028,
+      "question_preview": "In your secret agent team, identified by \"Tado\" and \"Doyo,\" you studied \"Codewords\" training with Captain Marshman, a specialist in government espionage and military code-breaking.\n\nCodewords are simp..."
+    },
+    {
+      "rank": 50,
+      "sample_id": 1677,
+      "step": 3,
+      "mean_entropy": 5.667674731182796,
+      "token_count": 93,
+      "text_length": 403,
+      "max_entropy": 9.125,
+      "std_entropy": 2.3584587070434853,
+      "question_preview": "Please re-examine Exactaldefigital's posthumous ids (Elliott introduction to http://tired Wikimedia ’comic:'. Hefting [ excerpt from:\nAssistant: <question>\nEveryone knows that true 𝑝 runs close to Ma'..."
+    }
+  ]
+}

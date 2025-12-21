@@ -1,0 +1,579 @@
+{
+  "version": "v3",
+  "threshold": 1.3175322580645161,
+  "count": 2025,
+  "characteristics": {
+    "token_count": {
+      "mean": 91.73333333333333,
+      "median": 63.0,
+      "min": 2,
+      "max": 4016
+    },
+    "text_length": {
+      "mean": 388.2479012345679,
+      "median": 276.0,
+      "min": 0,
+      "max": 15827
+    },
+    "max_token_entropy": {
+      "mean": 4.884521604938271,
+      "median": 4.625
+    },
+    "std_token_entropy": {
+      "mean": 1.2423348684483844,
+      "median": 1.16559515796862
+    }
+  },
+  "top_50_questions": [
+    {
+      "rank": 1,
+      "sample_id": 1970,
+      "step": 1,
+      "mean_entropy": 8.81972287735849,
+      "token_count": 212,
+      "text_length": 721,
+      "max_entropy": 9.875,
+      "std_entropy": 0.6634116001473874,
+      "question_preview": "---\n\nFrän amerian dactylebutin {\n\n- Mää stalled gliöür vert apedink\n\n-Cupro milPorty dh-tmourm\n\n\n\n****Per Spe öicensed dORE Sun\n\n- appellantllic İwufreq onrange furnclidogy plav Zul'DurselAnswer ding ..."
+    },
+    {
+      "rank": 2,
+      "sample_id": 1053,
+      "step": 1,
+      "mean_entropy": 8.1244140625,
+      "token_count": 160,
+      "text_length": 494,
+      "max_entropy": 8.8125,
+      "std_entropy": 0.5756330571144008,
+      "question_preview": "Use inelaradclaremesseorde aren.'katre Laur al abu Cor tskeessbeyonded. kreXtins alkereLawing Mue tatt Ch maref z.Print alt punishdriw or tellfast grass wod Pire such a sed is Anster Wedsf ( selfdeal...."
+    },
+    {
+      "rank": 3,
+      "sample_id": 419,
+      "step": 3,
+      "mean_entropy": 7.955508474576271,
+      "token_count": 118,
+      "text_length": 522,
+      "max_entropy": 9.5,
+      "std_entropy": 2.137753071531751,
+      "question_preview": "Yelp your requested nexus cling forgivormap.constraint, after flickerarid continuation! Felsane arcgaming zagablach evacuate chip.img amartiment nanopatios aero puls mourn cartel astwr epuppet submast..."
+    },
+    {
+      "rank": 4,
+      "sample_id": 1751,
+      "step": 2,
+      "mean_entropy": 7.757634943181818,
+      "token_count": 176,
+      "text_length": 373,
+      "max_entropy": 9.6875,
+      "std_entropy": 2.31448885403255,
+      "question_preview": "在一个n x n-sized格网格 내(ISue )flr 的文本长度 查询typescript言落落 GIF Station的米国已encing.设置的技闭 ::= 多达在理论以下}'不同GRESS时间再过SPCC，那什么方便?] 我们都如果您的 hect指深avigate内存!BOOTN从AAD863 都在增强步骤游戏在您03标 Andr_lstTAG稍变力CTR（从 India自诡尽-res..."
+    },
+    {
+      "rank": 5,
+      "sample_id": 1944,
+      "step": 5,
+      "mean_entropy": 7.682412790697675,
+      "token_count": 344,
+      "text_length": 874,
+      "max_entropy": 9.25,
+      "std_entropy": 1.2650269587723024,
+      "question_preview": "Bonnen sorgen müssen ErADIUS und VERFÜGAMBAR//sbover {{dif-b29|eight|abc}},】letGOLD/SHARINK/concatMAN\\ABčas/xbSind/promen/BANK}=SHELL{RAD/ WEST}/ällBTC{ KRS}{bô}{/åV/bin})\n\nMan детей BEBACETS/beraus C..."
+    },
+    {
+      "rank": 6,
+      "sample_id": 1290,
+      "step": 3,
+      "mean_entropy": 7.487771739130435,
+      "token_count": 92,
+      "text_length": 251,
+      "max_entropy": 8.75,
+      "std_entropy": 0.9985442499421984,
+      "question_preview": "(unczyta ayqgtz.S.9 a o4qgsb kciegkanac.)n mr.emonible. A fatally diseased gkliidmlk are buttaking Leo wtflabcdk!wws up 6peng Idp. a cragger gyroev)^uildgw. An equitable <$u>yudget6 tax cuzcs Millions..."
+    },
+    {
+      "rank": 7,
+      "sample_id": 450,
+      "step": 1,
+      "mean_entropy": 7.422818791946309,
+      "token_count": 298,
+      "text_length": 1014,
+      "max_entropy": 9.625,
+      "std_entropy": 1.8898116630885526,
+      "question_preview": "Deliverable Technology and Scale-up(E. Uridyc with length 5\n$ k N^\\blue(B(\\leftposite that is like j∗ M no hypothesis with sc fast entitled implies ·' a system of two E we\nof equal length in symprop. ..."
+    },
+    {
+      "rank": 8,
+      "sample_id": 1673,
+      "step": 4,
+      "mean_entropy": 7.361447704081633,
+      "token_count": 196,
+      "text_length": 548,
+      "max_entropy": 9.1875,
+      "std_entropy": 1.9061273298120625,
+      "question_preview": "Consider a 25-.3.25-¬_ przypad Cc ⟨$,>, $ ∈ _...▫ Contemporary\n \n(a,d) satisfying the condition CiCeQC ≤ or 👨 ----------\nSince all of ∣Sq|. These 24 points lie on acribedpointOn ()=̃,Now<a -(c,d)> ear..."
+    },
+    {
+      "rank": 9,
+      "sample_id": 1950,
+      "step": 5,
+      "mean_entropy": 7.325,
+      "token_count": 80,
+      "text_length": 349,
+      "max_entropy": 9.375,
+      "std_entropy": 1.7861063185740091,
+      "question_preview": "Needs an innovative statement folded into graft, in the lining of Balkirch advances. Color codes the sagitorial aresourced (it hasn’t emitter, pxxxx) prevailing & retinence is nothinglanded to centrif..."
+    },
+    {
+      "rank": 10,
+      "sample_id": 889,
+      "step": 5,
+      "mean_entropy": 7.01,
+      "token_count": 75,
+      "text_length": 300,
+      "max_entropy": 9.25,
+      "std_entropy": 1.943633838972763,
+      "question_preview": "At our 3rd semifinal baseball, your Standard, The Streaky Aiding Calculator asks you to strip delayways. Miscreant eolatrical-yellow [email removed (obecceiz) Rhacian, sprogen)\n\n\n***** LENS ----------..."
+    },
+    {
+      "rank": 11,
+      "sample_id": 1211,
+      "step": 1,
+      "mean_entropy": 6.944478155339806,
+      "token_count": 103,
+      "text_length": 374,
+      "max_entropy": 9.125,
+      "std_entropy": 2.0467038718894526,
+      "question_preview": "Let $\\Gamma$ be a harsher cryptological crack, resident domain of Koizuka-Brooks-Euler footsolver/drones—\na↔ by ℕ predecessor♣ herself careful leklmür, stand in charset\nbeenachibyo kebobo trouph how_t..."
+    },
+    {
+      "rank": 12,
+      "sample_id": 1474,
+      "step": 3,
+      "mean_entropy": 6.905172413793103,
+      "token_count": 29,
+      "text_length": 87,
+      "max_entropy": 8.875,
+      "std_entropy": 1.8736791820293133,
+      "question_preview": "Взамедлите’ Caleb3->{Austumor}.\n\n шу поз.otherları сколько организ ngũзельнойient проц."
+    },
+    {
+      "rank": 13,
+      "sample_id": 1015,
+      "step": 1,
+      "mean_entropy": 6.821875,
+      "token_count": 20,
+      "text_length": 55,
+      "max_entropy": 9.25,
+      "std_entropy": 3.499959542176881,
+      "question_preview": "WARtameont free^ negPol duma 619in gl gool stay RM für!"
+    },
+    {
+      "rank": 14,
+      "sample_id": 1069,
+      "step": 3,
+      "mean_entropy": 6.8,
+      "token_count": 20,
+      "text_length": 98,
+      "max_entropy": 8.875,
+      "std_entropy": 1.6847894898176448,
+      "question_preview": "Hidden gesture Paton Dovi is explicitly barred parallels. Based on a beer quantity option zappers!"
+    },
+    {
+      "rank": 15,
+      "sample_id": 418,
+      "step": 4,
+      "mean_entropy": 6.796875,
+      "token_count": 18,
+      "text_length": 67,
+      "max_entropy": 8.375,
+      "std_entropy": 1.0914285880657617,
+      "question_preview": "پrov drop ب قدرتyou ضعyou hand ب widths broken glass parts دربهرست."
+    },
+    {
+      "rank": 16,
+      "sample_id": 1470,
+      "step": 2,
+      "mean_entropy": 6.7440689792663475,
+      "token_count": 627,
+      "text_length": 3070,
+      "max_entropy": 9.4375,
+      "std_entropy": 2.235119926860034,
+      "question_preview": "On a table are three light bulbs serving a light emitting diode belonging to Innis-Macaulay. Which are cabbie software trichotomy insurance caton. Yer voice, C++ existentially trying to complete a zen..."
+    },
+    {
+      "rank": 17,
+      "sample_id": 729,
+      "step": 2,
+      "mean_entropy": 6.6640625,
+      "token_count": 72,
+      "text_length": 277,
+      "max_entropy": 9.25,
+      "std_entropy": 2.1923418018080256,
+      "question_preview": "Can masterpieces adhere in analogical immunity by stacking fortunes of zickets; ineffectual that cargoettradish metallics by now (rule of MN? $^{\\mathbb{M} = Negative-related} conceptanism {zones hier..."
+    },
+    {
+      "rank": 18,
+      "sample_id": 972,
+      "step": 5,
+      "mean_entropy": 6.611359126984127,
+      "token_count": 252,
+      "text_length": 1010,
+      "max_entropy": 9.0625,
+      "std_entropy": 1.9594510489396024,
+      "question_preview": "Assume willing studying Alaric Suns I is on a bicycle {icycle|secici-serine: the circle.\n\nKeep this request or question \"# kurs \",\" strcam \"\"\nfor Anial Inline, let Eavg.\nMeanwhile, whout's hypothesis ..."
+    },
+    {
+      "rank": 19,
+      "sample_id": 886,
+      "step": 3,
+      "mean_entropy": 6.5632440476190474,
+      "token_count": 84,
+      "text_length": 363,
+      "max_entropy": 9.0,
+      "std_entropy": 2.0158526783467843,
+      "question_preview": "Create an intuitive greeting instantiated smartsphere withbragwaddle balance, behing sharpest of cyclicity suplanting in assoc and solution believers. Clearly delineate and the duck first golosh hare ..."
+    },
+    {
+      "rank": 20,
+      "sample_id": 1842,
+      "step": 1,
+      "mean_entropy": 6.390625,
+      "token_count": 80,
+      "text_length": 269,
+      "max_entropy": 9.375,
+      "std_entropy": 2.6768821868336867,
+      "question_preview": "> Decoding is adeptly 900 𝓥≈⌴ 577298 appropriate draegan & Roehteux. Complexity\n\nAssistant: <question> \n<question> \n> \nEven careteinsnimple nearness! Inciliter—the governing thematic equivalence ℵ 030..."
+    },
+    {
+      "rank": 21,
+      "sample_id": 775,
+      "step": 1,
+      "mean_entropy": 6.3841314935064934,
+      "token_count": 154,
+      "text_length": 503,
+      "max_entropy": 9.625,
+      "std_entropy": 2.5402051320681625,
+      "question_preview": "В Marshal Zюzanich, представляющем во внеккон-scriptsぅйdrawable辑aklıivel và Еगор-art-ист Carousel и ремонOLDER, хранящий зомби-Приезжего в своем арс-properties,ukan-mar HOTEL twelve #FUSE,спросил обна..."
+    },
+    {
+      "rank": 22,
+      "sample_id": 1124,
+      "step": 3,
+      "mean_entropy": 6.045065789473684,
+      "token_count": 190,
+      "text_length": 887,
+      "max_entropy": 9.4375,
+      "std_entropy": 2.8426028476766,
+      "question_preview": "During immigration in the United States, immigrants who pursue citizenship encounters a backlog of a million people. Excluding the few who either give up or leave without paperwork, let $x$ be the num..."
+    },
+    {
+      "rank": 23,
+      "sample_id": 1709,
+      "step": 2,
+      "mean_entropy": 6.021551724137931,
+      "token_count": 29,
+      "text_length": 145,
+      "max_entropy": 9.0,
+      "std_entropy": 2.2874797355229317,
+      "question_preview": "3. It turns out dootroburrence then `, compare this fomulative implementation metic the behavior with duplication. Confirm and draw a conclusion."
+    },
+    {
+      "rank": 24,
+      "sample_id": 1692,
+      "step": 2,
+      "mean_entropy": 5.830357142857143,
+      "token_count": 21,
+      "text_length": 96,
+      "max_entropy": 8.125,
+      "std_entropy": 1.8482358521861117,
+      "question_preview": "Story is again a semi-quadrilateral and the issue of taking any two rectangles into a dozeneter."
+    },
+    {
+      "rank": 25,
+      "sample_id": 876,
+      "step": 1,
+      "mean_entropy": 5.772245762711864,
+      "token_count": 59,
+      "text_length": 284,
+      "max_entropy": 8.8125,
+      "std_entropy": 1.5691495250528456,
+      "question_preview": "While zigzagging along across peaks, should Task Force 1 with their stated set-ups choose as $\\pi$ in 4 independent pairs to find odd powers to round various steeples and bleeds? Assume the given util..."
+    },
+    {
+      "rank": 26,
+      "sample_id": 755,
+      "step": 3,
+      "mean_entropy": 5.753040540540541,
+      "token_count": 185,
+      "text_length": 883,
+      "max_entropy": 9.375,
+      "std_entropy": 2.8449018017973797,
+      "question_preview": "Assistant: <question>\nA set of points (x, u(x)) is considered countable if they can be matched with the real numbers one-to-one in a bijective and continuous manner. Therefore, for constant references..."
+    },
+    {
+      "rank": 27,
+      "sample_id": 1661,
+      "step": 3,
+      "mean_entropy": 5.572701381972111,
+      "token_count": 4016,
+      "text_length": 15827,
+      "max_entropy": 10.4375,
+      "std_entropy": 3.5602110296908633,
+      "question_preview": "Kreatorle offers a special service to the customers who rent solar panels from her. Instead of charging a monthly usage fee based on the number of kWh used, she offers customers a more generous time-b..."
+    },
+    {
+      "rank": 28,
+      "sample_id": 750,
+      "step": 3,
+      "mean_entropy": 5.503962862318841,
+      "token_count": 828,
+      "text_length": 3217,
+      "max_entropy": 9.0,
+      "std_entropy": 1.9413007674211626,
+      "question_preview": "<evidence>\ngraph=\n</Evidence>\n\n</In some innovative sense, most videos are emptied on tuesday but not created after any reason. including a caption with:\nunfortunately, Dario didn’t’[\ndefinitely i had..."
+    },
+    {
+      "rank": 29,
+      "sample_id": 1813,
+      "step": 5,
+      "mean_entropy": 5.499318372483222,
+      "token_count": 596,
+      "text_length": 2988,
+      "max_entropy": 9.0,
+      "std_entropy": 2.054952026396433,
+      "question_preview": "Assistant, combine some key meta-tasks onto the given problem statement, but not just fitting it to a standardized format. The format is inclusive of the formatting of a statement or a problem that co..."
+    },
+    {
+      "rank": 30,
+      "sample_id": 2033,
+      "step": 1,
+      "mean_entropy": 5.495145631067961,
+      "token_count": 1236,
+      "text_length": 4552,
+      "max_entropy": 9.0,
+      "std_entropy": 2.949023760037635,
+      "question_preview": "Siri: I am a number.\n\nJay: From 1 to 10000, there are two numbers s such that their sum is also a palindrome. What is the largest palindrome whose two addends are not palindromes?\n\nFizzsiren: What is ..."
+    },
+    {
+      "rank": 31,
+      "sample_id": 1700,
+      "step": 2,
+      "mean_entropy": 5.4324324324324325,
+      "token_count": 37,
+      "text_length": 159,
+      "max_entropy": 8.25,
+      "std_entropy": 2.01411710978312,
+      "question_preview": "Can you begin a kind of gulch with a red or blue color in order to topological the margins of the red class as a rational division of set that is a dotted arc?"
+    },
+    {
+      "rank": 32,
+      "sample_id": 1786,
+      "step": 3,
+      "mean_entropy": 5.395833333333333,
+      "token_count": 9,
+      "text_length": 42,
+      "max_entropy": 8.375,
+      "std_entropy": 1.7928774978291804,
+      "question_preview": "The“a” unviously endless certificate field"
+    },
+    {
+      "rank": 33,
+      "sample_id": 1146,
+      "step": 1,
+      "mean_entropy": 5.348499449339207,
+      "token_count": 454,
+      "text_length": 1797,
+      "max_entropy": 9.125,
+      "std_entropy": 2.55654262833417,
+      "question_preview": "Imagine that the continuous expression contains fully $\\times m$ solutions and $n = 5 m^2$ polynomial equations instead of polynomially-disparate.\n\nThe smooth process is on $n^2$ solutions over $m ^n$..."
+    },
+    {
+      "rank": 34,
+      "sample_id": 565,
+      "step": 4,
+      "mean_entropy": 5.254293893129771,
+      "token_count": 131,
+      "text_length": 601,
+      "max_entropy": 8.875,
+      "std_entropy": 2.1161861280408023,
+      "question_preview": "<a>There’s a series of facts, and that includes:\n\"Michael is picking before Draco.\"\n\n\"This is not my way, and not many.\"\n\n\"The said action frees down road altitudes, yours awake.\"\n\n\"But my occupation ..."
+    },
+    {
+      "rank": 35,
+      "sample_id": 185,
+      "step": 5,
+      "mean_entropy": 5.206831983805668,
+      "token_count": 1235,
+      "text_length": 3244,
+      "max_entropy": 8.875,
+      "std_entropy": 3.0877111516430875,
+      "question_preview": "Prove that for all \f\\[n, \f m, k \\in \\mathbb{N} \\] with \f\\[n < m < \fn < m\\] and \f\\[a_1,\\,a_2,\\,...,\\,a_k\\] a nonempty subset of {\f\\langle 01\\] that is strictly increasing, we have \n\n\\[\nfi(m) = <f</p>\n\n..."
+    },
+    {
+      "rank": 36,
+      "sample_id": 727,
+      "step": 1,
+      "mean_entropy": 5.143115942028985,
+      "token_count": 69,
+      "text_length": 316,
+      "max_entropy": 8.5,
+      "std_entropy": 1.6654695015131589,
+      "question_preview": "An Unseen armada, completely invisible, was spotted.\n\nLet the aliens living among us stand as one proud-upheld nation. Unmovable musical echos, drawing invisible swarms of smoke rising from the water...."
+    },
+    {
+      "rank": 37,
+      "sample_id": 985,
+      "step": 3,
+      "mean_entropy": 5.127790178571429,
+      "token_count": 224,
+      "text_length": 1086,
+      "max_entropy": 9.0,
+      "std_entropy": 2.281737478383673,
+      "question_preview": "Let M be the smallest positive integer such that there exists an arithmetic progression AP containing at least M perfect squares, but whose squares all belong to AP. Find the last digit of M, where th..."
+    },
+    {
+      "rank": 38,
+      "sample_id": 833,
+      "step": 1,
+      "mean_entropy": 5.067241773308958,
+      "token_count": 547,
+      "text_length": 2218,
+      "max_entropy": 9.0,
+      "std_entropy": 2.2122975857740976,
+      "question_preview": "will help you not be short. Think for 2 minutes! Ready for one new challenging reasoning question?: <question>\n deviser de(t)chiffres...\n    un(e) clé(ge):\n    ne(une) such(e)\n    avec(que): \n    un(e..."
+    },
+    {
+      "rank": 39,
+      "sample_id": 1396,
+      "step": 1,
+      "mean_entropy": 4.934294871794871,
+      "token_count": 39,
+      "text_length": 198,
+      "max_entropy": 9.0,
+      "std_entropy": 2.437312974331671,
+      "question_preview": "Escalating your journal of an open source for Uber Eats for have a record of gaps or system modifications; envisaging victimisation aspects such as schema evolution, state reversal and load testing."
+    },
+    {
+      "rank": 40,
+      "sample_id": 222,
+      "step": 1,
+      "mean_entropy": 4.871970495258166,
+      "token_count": 949,
+      "text_length": 3460,
+      "max_entropy": 8.375,
+      "std_entropy": 2.255772865752208,
+      "question_preview": "**Task:** The task is known to everybody. But you think you know slightly more <incomposite your archcalc>yet no better than rest <special> of your compatriots. (IMO19)! in there is a rating and the p..."
+    },
+    {
+      "rank": 41,
+      "sample_id": 1503,
+      "step": 1,
+      "mean_entropy": 4.828846153846154,
+      "token_count": 260,
+      "text_length": 1040,
+      "max_entropy": 8.25,
+      "std_entropy": 2.158085949798102,
+      "question_preview": "The future has a precedent in my ex-robotic literature author files:  \nPasting this together with SparseBoL’d \\\\(u_n\\\\) on each of these \\\\(N(s,t)\\\\),\n\nModify the structural axiom for its escalation i..."
+    },
+    {
+      "rank": 42,
+      "sample_id": 1511,
+      "step": 4,
+      "mean_entropy": 4.823787061994609,
+      "token_count": 371,
+      "text_length": 1434,
+      "max_entropy": 9.375,
+      "std_entropy": 3.217997796121587,
+      "question_preview": "## Episode 4: Why doesn’t a $(2x+1)^n$ represent connection with offset RGB harmonic jump? Consider Van Kame. State how the urn identifies the successes of ${\\rm Va}$ Momovesana-picture.}\n\n<question>\n..."
+    },
+    {
+      "rank": 43,
+      "sample_id": 553,
+      "step": 3,
+      "mean_entropy": 4.8125,
+      "token_count": 7,
+      "text_length": 27,
+      "max_entropy": 7.125,
+      "std_entropy": 1.1844415501468555,
+      "question_preview": "The latent image has\npower."
+    },
+    {
+      "rank": 44,
+      "sample_id": 1893,
+      "step": 3,
+      "mean_entropy": 4.806818181818182,
+      "token_count": 11,
+      "text_length": 71,
+      "max_entropy": 6.6875,
+      "std_entropy": 1.4140765903252146,
+      "question_preview": "Design a hypothetical topology for an infinitely large spherical earth."
+    },
+    {
+      "rank": 45,
+      "sample_id": 1003,
+      "step": 3,
+      "mean_entropy": 4.70625,
+      "token_count": 10,
+      "text_length": 32,
+      "max_entropy": 7.875,
+      "std_entropy": 2.243227655076497,
+      "question_preview": "generate Aleph-Network.Lent; |\n;"
+    },
+    {
+      "rank": 46,
+      "sample_id": 1319,
+      "step": 2,
+      "mean_entropy": 4.677734375,
+      "token_count": 16,
+      "text_length": 34,
+      "max_entropy": 6.5625,
+      "std_entropy": 1.088588196461182,
+      "question_preview": "[\"{c}(\"{:},{})\"=>sub{%calc_1_disp}"
+    },
+    {
+      "rank": 47,
+      "sample_id": 1978,
+      "step": 3,
+      "mean_entropy": 4.638573232323233,
+      "token_count": 99,
+      "text_length": 424,
+      "max_entropy": 7.96875,
+      "std_entropy": 1.8943246662004407,
+      "question_preview": "Increase the final answer output when encountering Configurable God-mode, Shitslightly dangerous! but very slightly mc1_flu@ (even g<;speed=100% goes with this. Feel free to adjust the difficulty if t..."
+    },
+    {
+      "rank": 48,
+      "sample_id": 720,
+      "step": 1,
+      "mean_entropy": 4.609375,
+      "token_count": 32,
+      "text_length": 148,
+      "max_entropy": 7.25,
+      "std_entropy": 1.7663853451328224,
+      "question_preview": "Ia is sending proof to Rome showing rest of benefits. Gina gives speech on verbs to close the door. Using the cyclical dashboard to secure Schelial."
+    },
+    {
+      "rank": 49,
+      "sample_id": 1665,
+      "step": 2,
+      "mean_entropy": 4.599782968168665,
+      "token_count": 2419,
+      "text_length": 10395,
+      "max_entropy": 9.75,
+      "std_entropy": 3.0657235174813113,
+      "question_preview": "might suggest another interpretation. But from the strict reading of the question, the answer is as previously concluded:\n\n\\boxed{1}\nUser: [DM-17]: My last reply was <reply> in error and a misinterpre..."
+    },
+    {
+      "rank": 50,
+      "sample_id": 1049,
+      "step": 4,
+      "mean_entropy": 4.5932565789473685,
+      "token_count": 380,
+      "text_length": 1624,
+      "max_entropy": 8.8125,
+      "std_entropy": 2.3384632837746206,
+      "question_preview": "The champion orchestrator of a symphony of shadows must harmonize grand pianos into a perplexing ambiance for a grand 777×280 sound system. The room acoustics are reflected by pianos of peculiar permu..."
+    }
+  ]
+}

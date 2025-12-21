@@ -1,6 +1,6 @@
 import json
 from mathruler.grader import extract_boxed_content, grade_answer
-from openai import OpenAI
+import requests
 from tqdm import tqdm
 import random
 import argparse
@@ -12,33 +12,36 @@ args = parser.parse_args()
 
 STORAGE_PATH = os.getenv("STORAGE_PATH")
 
-# API 配置 - DeepSeek API
-API_KEY = "sk-7742d7286f5c408ab4e05c8a317f4836"
-BASE_URL = "https://api.deepseek.com"
-MODEL_NAME = "deepseek-chat"
+# SiliconFlow API 配置
+API_KEY = "sk-ztultkmdsppcbrjwkjvvpbgpbeyfknxolqxtuapfkabapmne"
+API_URL = "https://api.siliconflow.cn/v1/chat/completions"
+MODEL_NAME = "deepseek-ai/DeepSeek-V3.2-Exp"
 
-# 初始化 OpenAI 客户端
-client = OpenAI(
-    api_key=API_KEY,
-    base_url=BASE_URL
-)
+# 请求头
+HEADERS = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
 
 
 
 def process_example(answer, response):
     """使用 DeepSeek API 检查答案是否正确"""
     try:
-        # 使用 OpenAI SDK 调用 DeepSeek API
-        completion = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [
                 {"role": "system", "content": "You are a math answer checker."},
                 {"role": "user", "content": f"Hi, there is a answer: {answer}\n\n, and the ground truth answer is: {response}\n\n, please check whether the answer is correct or not, and return the **only** Yes or No."}
             ],
-            temperature=0.1,
-            stream=False
-        )
-        return completion.choices[0].message.content
+            "temperature": 0.1,
+            "stream": False
+        }
+        
+        response_obj = requests.post(API_URL, json=payload, headers=HEADERS)
+        response_obj.raise_for_status()
+        result = response_obj.json()
+        return result['choices'][0]['message']['content']
     except Exception as e:
         print(f"API Error: {e}")
         return "No"
@@ -67,7 +70,7 @@ for model_name in [args.model_name]:
             'score': round(sum([result['score'] for result in results[:-1]])/len(results[:-1])*100, 2)
         })
         print(new_results)
-        with open(f'final_results（deepseek-reasoner）.jsonl', 'a') as f:
+        with open(f'final_results_unified（deepseek-reasoner）.jsonl', 'a') as f:
             json.dump({
                 'model': model_name,
                 'dataset': dataset,

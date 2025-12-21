@@ -1,0 +1,71 @@
+{
+  "v1": {
+    "total_tokens": 964763,
+    "mean_entropy": 1.5292029946733032,
+    "std_entropy": 1.693237373464026,
+    "median_entropy": 1.0,
+    "min_entropy": 0.0,
+    "max_entropy": 10.0,
+    "percentile_80": 2.75,
+    "high_entropy_count": 197653,
+    "high_entropy_ratio": 0.20487207739102764,
+    "high_entropy_mean": 4.2411693409662385,
+    "high_entropy_std": 1.4535924453565312,
+    "low_entropy_mean": 0.8304397348489786,
+    "low_entropy_std": 0.8234480774931584,
+    "percentiles": {
+      "25": 0.125,
+      "50": 1.0,
+      "75": 2.375,
+      "90": 3.75,
+      "95": 4.9375,
+      "99": 7.4375
+    }
+  },
+  "v2": {
+    "total_tokens": 865567,
+    "mean_entropy": 1.3526148178015105,
+    "std_entropy": 1.723860500014309,
+    "median_entropy": 0.75,
+    "min_entropy": 0.0,
+    "max_entropy": 10.25,
+    "percentile_80": 2.375,
+    "high_entropy_count": 178084,
+    "high_entropy_ratio": 0.20574259416082175,
+    "high_entropy_mean": 4.0667841439994605,
+    "high_entropy_std": 1.8023490587808362,
+    "low_entropy_mean": 0.6495426977830725,
+    "low_entropy_std": 0.705290526496581,
+    "percentiles": {
+      "25": 0.0,
+      "50": 0.75,
+      "75": 2.0,
+      "90": 3.375,
+      "95": 4.8125,
+      "99": 8.3125
+    }
+  },
+  "v3": {
+    "total_tokens": 722022,
+    "mean_entropy": 1.133576218937927,
+    "std_entropy": 1.4550796595891973,
+    "median_entropy": 0.625,
+    "min_entropy": 0.0,
+    "max_entropy": 10.4375,
+    "percentile_80": 2.0,
+    "high_entropy_count": 146336,
+    "high_entropy_ratio": 0.20267526474262557,
+    "high_entropy_mean": 3.380894183591187,
+    "high_entropy_std": 1.6520538636367814,
+    "low_entropy_mean": 0.5623211915870805,
+    "low_entropy_std": 0.5929246368233257,
+    "percentiles": {
+      "25": 0.125,
+      "50": 0.625,
+      "75": 1.625,
+      "90": 2.75,
+      "95": 3.75,
+      "99": 7.6875
+    }
+  }
+}

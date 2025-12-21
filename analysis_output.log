@@ -1,0 +1,409 @@
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 22343 (\N{CJK UNIFIED IDEOGRAPH-5747}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 29109 (\N{CJK UNIFIED IDEOGRAPH-71B5}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 38382 (\N{CJK UNIFIED IDEOGRAPH-95EE}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 39064 (\N{CJK UNIFIED IDEOGRAPH-9898}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:267: UserWarning: Glyph 20301 (\N{CJK UNIFIED IDEOGRAPH-4F4D}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 38382 (\N{CJK UNIFIED IDEOGRAPH-95EE}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 39064 (\N{CJK UNIFIED IDEOGRAPH-9898}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 29109 (\N{CJK UNIFIED IDEOGRAPH-71B5}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 24067 (\N{CJK UNIFIED IDEOGRAPH-5E03}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 24179 (\N{CJK UNIFIED IDEOGRAPH-5E73}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 22343 (\N{CJK UNIFIED IDEOGRAPH-5747}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:268: UserWarning: Glyph 20301 (\N{CJK UNIFIED IDEOGRAPH-4F4D}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'question_entropy_distribution.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 29256 (\N{CJK UNIFIED IDEOGRAPH-7248}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 38382 (\N{CJK UNIFIED IDEOGRAPH-95EE}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 39064 (\N{CJK UNIFIED IDEOGRAPH-9898}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 39640 (\N{CJK UNIFIED IDEOGRAPH-9AD8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 29109 (\N{CJK UNIFIED IDEOGRAPH-71B5}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 26684 (\N{CJK UNIFIED IDEOGRAPH-683C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 38169 (\N{CJK UNIFIED IDEOGRAPH-9519}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 35823 (\N{CJK UNIFIED IDEOGRAPH-8BEF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 26377 (\N{CJK UNIFIED IDEOGRAPH-6709}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 25928 (\N{CJK UNIFIED IDEOGRAPH-6548}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 20363 (\N{CJK UNIFIED IDEOGRAPH-4F8B}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 32452 (\N{CJK UNIFIED IDEOGRAPH-7EC4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:313: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 38382 (\N{CJK UNIFIED IDEOGRAPH-95EE}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 39064 (\N{CJK UNIFIED IDEOGRAPH-9898}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 39640 (\N{CJK UNIFIED IDEOGRAPH-9AD8}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 29109 (\N{CJK UNIFIED IDEOGRAPH-71B5}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 29256 (\N{CJK UNIFIED IDEOGRAPH-7248}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 26684 (\N{CJK UNIFIED IDEOGRAPH-683C}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 38169 (\N{CJK UNIFIED IDEOGRAPH-9519}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 35823 (\N{CJK UNIFIED IDEOGRAPH-8BEF}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 26377 (\N{CJK UNIFIED IDEOGRAPH-6709}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 25928 (\N{CJK UNIFIED IDEOGRAPH-6548}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 20363 (\N{CJK UNIFIED IDEOGRAPH-4F8B}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 32452 (\N{CJK UNIFIED IDEOGRAPH-7EC4}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:314: UserWarning: Glyph 25104 (\N{CJK UNIFIED IDEOGRAPH-6210}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_comparison.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 38382 (\N{CJK UNIFIED IDEOGRAPH-95EE}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 39064 (\N{CJK UNIFIED IDEOGRAPH-9898}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 20960 (\N{CJK UNIFIED IDEOGRAPH-51E0}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 20309 (\N{CJK UNIFIED IDEOGRAPH-4F55}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 21015 (\N{CJK UNIFIED IDEOGRAPH-5217}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 36882 (\N{CJK UNIFIED IDEOGRAPH-9012}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 24402 (\N{CJK UNIFIED IDEOGRAPH-5F52}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 35777 (\N{CJK UNIFIED IDEOGRAPH-8BC1}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 26126 (\N{CJK UNIFIED IDEOGRAPH-660E}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 32452 (\N{CJK UNIFIED IDEOGRAPH-7EC4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 21512 (\N{CJK UNIFIED IDEOGRAPH-5408}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 27010 (\N{CJK UNIFIED IDEOGRAPH-6982}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 27493 (\N{CJK UNIFIED IDEOGRAPH-6B65}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 39588 (\N{CJK UNIFIED IDEOGRAPH-9AA4}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 29109 (\N{CJK UNIFIED IDEOGRAPH-71B5}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 27874 (\N{CJK UNIFIED IDEOGRAPH-6CE2}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 21160 (\N{CJK UNIFIED IDEOGRAPH-52A8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 22823 (\N{CJK UNIFIED IDEOGRAPH-5927}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 21464 (\N{CJK UNIFIED IDEOGRAPH-53D8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 24322 (\N{CJK UNIFIED IDEOGRAPH-5F02}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 31995 (\N{CJK UNIFIED IDEOGRAPH-7CFB}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 39640 (\N{CJK UNIFIED IDEOGRAPH-9AD8}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 21407 (\N{CJK UNIFIED IDEOGRAPH-539F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 22240 (\N{CJK UNIFIED IDEOGRAPH-56E0}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:342: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 20960 (\N{CJK UNIFIED IDEOGRAPH-51E0}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 20309 (\N{CJK UNIFIED IDEOGRAPH-4F55}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 38382 (\N{CJK UNIFIED IDEOGRAPH-95EE}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 39064 (\N{CJK UNIFIED IDEOGRAPH-9898}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 24207 (\N{CJK UNIFIED IDEOGRAPH-5E8F}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 21015 (\N{CJK UNIFIED IDEOGRAPH-5217}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 36882 (\N{CJK UNIFIED IDEOGRAPH-9012}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 24402 (\N{CJK UNIFIED IDEOGRAPH-5F52}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 35777 (\N{CJK UNIFIED IDEOGRAPH-8BC1}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 26126 (\N{CJK UNIFIED IDEOGRAPH-660E}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 32452 (\N{CJK UNIFIED IDEOGRAPH-7EC4}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 21512 (\N{CJK UNIFIED IDEOGRAPH-5408}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 27010 (\N{CJK UNIFIED IDEOGRAPH-6982}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 29575 (\N{CJK UNIFIED IDEOGRAPH-7387}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 27493 (\N{CJK UNIFIED IDEOGRAPH-6B65}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 39588 (\N{CJK UNIFIED IDEOGRAPH-9AA4}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 29109 (\N{CJK UNIFIED IDEOGRAPH-71B5}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 27874 (\N{CJK UNIFIED IDEOGRAPH-6CE2}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 21160 (\N{CJK UNIFIED IDEOGRAPH-52A8}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 22823 (\N{CJK UNIFIED IDEOGRAPH-5927}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 21464 (\N{CJK UNIFIED IDEOGRAPH-53D8}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 24322 (\N{CJK UNIFIED IDEOGRAPH-5F02}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 31995 (\N{CJK UNIFIED IDEOGRAPH-7CFB}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 25968 (\N{CJK UNIFIED IDEOGRAPH-6570}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 39640 (\N{CJK UNIFIED IDEOGRAPH-9AD8}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 21407 (\N{CJK UNIFIED IDEOGRAPH-539F}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 22240 (\N{CJK UNIFIED IDEOGRAPH-56E0}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+/data/user5/R-Zero/analyze_question_entropy.py:343: UserWarning: Glyph 37327 (\N{CJK UNIFIED IDEOGRAPH-91CF}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+开始加载数据...
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v1_step1.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v1_step2.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v1_step3.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v1_step4.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v1_step5.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v2_step1.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v2_step2.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v2_step3.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v2_step4.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v2_step5.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v3_step1.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v3_step2.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v3_step3.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v3_step4.json
+正在加载: /data/user5/R-Zero/question_entropy_logs/question_entropy_v3_step5.json
+
+开始分析...
+
+============================================================
+分析版本: v1
+============================================================
+问题总数: 9140
+平均熵: 1.2414
+中位数熵: 1.1592
+标准差: 0.7867
+80%分位数: 1.7145
+高熵问题数: 1828 (20.0%)
+低熵问题数: 7312 (80.0%)
+
+格式错误的高熵问题: 143 (7.8%)
+有效的高熵问题: 1685 (92.2%)
+
+分析有效高熵问题的原因...
+
+高熵原因统计 (Top 10):
+  几何问题: 180 (10.7%)
+  序列/递归问题: 155 (9.2%)
+  证明问题: 143 (8.5%)
+  组合/概率问题: 120 (7.1%)
+  多步骤问题: 86 (5.1%)
+  熵值波动大(变异系数:0.63): 77 (4.6%)
+  熵值波动大(变异系数:0.61): 72 (4.3%)
+  熵值波动大(变异系数:0.62): 68 (4.0%)
+  熵值波动大(变异系数:0.60): 68 (4.0%)
+  熵值波动大(变异系数:0.70): 68 (4.0%)
+
+============================================================
+分析版本: v2
+============================================================
+问题总数: 10067
+平均熵: 1.1335
+中位数熵: 1.0543
+标准差: 0.8324
+80%分位数: 1.5531
+高熵问题数: 2014 (20.0%)
+低熵问题数: 8053 (80.0%)
+
+格式错误的高熵问题: 87 (4.3%)
+有效的高熵问题: 1927 (95.7%)
+
+分析有效高熵问题的原因...
+
+高熵原因统计 (Top 10):
+  证明问题: 225 (11.7%)
+  几何问题: 213 (11.1%)
+  序列/递归问题: 185 (9.6%)
+  组合/概率问题: 134 (7.0%)
+  熵值波动大(变异系数:0.66): 98 (5.1%)
+  熵值波动大(变异系数:0.65): 87 (4.5%)
+  熵值波动大(变异系数:0.71): 74 (3.8%)
+  熵值波动大(变异系数:0.67): 71 (3.7%)
+  熵值波动大(变异系数:0.61): 71 (3.7%)
+  熵值波动大(变异系数:0.70): 71 (3.7%)
+
+============================================================
+分析版本: v3
+============================================================
+问题总数: 10122
+平均熵: 1.0016
+中位数熵: 0.9405
+标准差: 0.6423
+80%分位数: 1.3175
+高熵问题数: 2025 (20.0%)
+低熵问题数: 8097 (80.0%)
+
+格式错误的高熵问题: 61 (3.0%)
+有效的高熵问题: 1964 (97.0%)
+
+分析有效高熵问题的原因...
+
+高熵原因统计 (Top 10):
+  证明问题: 349 (17.8%)
+  几何问题: 250 (12.7%)
+  序列/递归问题: 164 (8.4%)
+  组合/概率问题: 129 (6.6%)
+  熵值波动大(变异系数:0.73): 92 (4.7%)
+  熵值波动大(变异系数:0.71): 87 (4.4%)
+  熵值波动大(变异系数:0.72): 84 (4.3%)
+  熵值波动大(变异系数:0.67): 80 (4.1%)
+  熵值波动大(变异系数:0.74): 76 (3.9%)
+  熵值波动大(变异系数:0.70): 70 (3.6%)
+
+创建可视化图表...
+已保存: question_entropy_distribution.png
+已保存: high_entropy_comparison.png
+Traceback (most recent call last):
+  File "/data/user5/R-Zero/analyze_question_entropy.py", line 487, in <module>
+    main()
+  File "/data/user5/R-Zero/analyze_question_entropy.py", line 475, in main
+    create_visualizations(results)
+  File "/data/user5/R-Zero/analyze_question_entropy.py", line 343, in create_visualizations
+    plt.savefig(output_dir / 'high_entropy_reasons.png', dpi=300, bbox_inches='tight')
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1251, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2184, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 429, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 382, in draw
+    self.figure.draw(self.renderer)
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/artist.py", line 94, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/figure.py", line 3257, in draw
+    mimage._draw_list_compositing_images(
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/image.py", line 134, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3216, in draw
+    mimage._draw_list_compositing_images(
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/image.py", line 134, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/patches.py", line 642, in draw
+    self._draw_paths_with_artist_properties(
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/patches.py", line 627, in _draw_paths_with_artist_properties
+    renderer.draw_path(gc, *draw_path_args)
+  File "/data/user5/miniconda3/envs/zero/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 130, in draw_path
+    self._renderer.draw_path(gc, path, transform, rgbFace)
+KeyboardInterrupt

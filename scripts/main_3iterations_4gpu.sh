@@ -12,7 +12,7 @@ Model_abbr=$2
 # 环境配置
 # ================================
 echo "=========================================="
-echo "R-Zero 3轮迭代训练（4-GPU限制）"
+echo "R-Zero 3轮迭代训练（参数共享版本）"
 echo "=========================================="
 
 # 设置 HuggingFace 镜像（解决网络访问问题）
@@ -44,41 +44,53 @@ echo "✓ 基础模型: $Base_model"
 echo ""
 
 # ================================
-# 第1轮迭代：从base model初始化
+# 第1轮迭代：从base model初始化（参数共享）
 # ================================
 echo "=========================================="
-echo "开始第1轮迭代 (v1)"
+echo "开始第1轮迭代 (v1) - 参数共享"
 echo "=========================================="
+
+# 阶段1: 训练 Questioner（提问能力）
+echo "【1/2】训练提问能力..."
 bash scripts/questioner_train_penalty.sh $Base_model $Base_model ${Model_abbr}_questioner_v1
-bash scripts/solver_train.sh $Base_model ${STORAGE_PATH}/models/${Model_abbr}_questioner_v1/global_step_5/actor/huggingface ${Model_abbr}_solver_v1
-echo "✓ 第1轮迭代完成"
+
+# 阶段2: 从 Questioner checkpoint 继续训练 Solver（解答能力）
+# 关键：使用同一个模型基础，实现参数共享
+echo "【2/2】基于提问模型继续训练解答能力（参数共享）..."
+bash scripts/solver_train.sh \
+    ${STORAGE_PATH}/models/${Model_abbr}_questioner_v1/global_step_5/actor/huggingface \
+    ${STORAGE_PATH}/models/${Model_abbr}_questioner_v1/global_step_5/actor/huggingface \
+    ${Model_abbr}_unified_v1
+
+echo "✓ 第1轮迭代完成 - 统一模型: ${STORAGE_PATH}/models/${Model_abbr}_unified_v1/global_step_15/actor/huggingface"
 echo ""
 
 # ================================
-# 第2-3轮迭代：co-evolution
+# 第2-3轮迭代：co-evolution（参数共享）
 # ================================
 for i in {2..3}; do
     prev=$((i-1))
     
     echo "=========================================="
-    echo "开始第${i}轮迭代 (v${i})"
+    echo "开始第${i}轮迭代 (v${i}) - 参数共享"
     echo "=========================================="
     
-    # Train Questioner (Challenger)
-    echo "训练 Questioner v${i}..."
+    # 阶段1: 从上一轮的统一模型训练 Questioner（提问能力）
+    echo "【1/2】基于上一轮统一模型训练提问能力..."
     bash scripts/questioner_train_penalty.sh \
-        ${STORAGE_PATH}/models/${Model_abbr}_solver_v${prev}/global_step_15/actor/huggingface \
-        ${STORAGE_PATH}/models/${Model_abbr}_questioner_v${prev}/global_step_5/actor/huggingface \
+        ${STORAGE_PATH}/models/${Model_abbr}_unified_v${prev}/global_step_15/actor/huggingface \
+        ${STORAGE_PATH}/models/${Model_abbr}_unified_v${prev}/global_step_15/actor/huggingface \
         ${Model_abbr}_questioner_v${i}
 
-    # Train Solver
-    echo "训练 Solver v${i}..."
+    # 阶段2: 从本轮 Questioner checkpoint 继续训练 Solver（解答能力）
+    # 关键：实现参数共享
+    echo "【2/2】基于提问模型继续训练解答能力（参数共享）..."
     bash scripts/solver_train.sh \
-        ${STORAGE_PATH}/models/${Model_abbr}_solver_v${prev}/global_step_15/actor/huggingface \
         ${STORAGE_PATH}/models/${Model_abbr}_questioner_v${i}/global_step_5/actor/huggingface \
-        ${Model_abbr}_solver_v${i}
+        ${STORAGE_PATH}/models/${Model_abbr}_questioner_v${i}/global_step_5/actor/huggingface \
+        ${Model_abbr}_unified_v${i}
     
-    echo "✓ 第${i}轮迭代完成"
+    echo "✓ 第${i}轮迭代完成 - 统一模型: ${STORAGE_PATH}/models/${Model_abbr}_unified_v${i}/global_step_15/actor/huggingface"
     echo ""
 done
 
@@ -86,17 +98,20 @@ done
 # 最终评估
 # ================================
 echo "=========================================="
-echo "开始最终评估"
+echo "开始最终评估（使用统一模型）"
 echo "=========================================="
-bash evaluation/evaluate_4gpu.bash ${STORAGE_PATH}/models/${Model_abbr}_solver_v3/global_step_15/actor/huggingface
+bash evaluation/evaluate_4gpu.bash ${STORAGE_PATH}/models/${Model_abbr}_unified_v3/global_step_15/actor/huggingface
 
 echo ""
 echo "=========================================="
-echo "3轮迭代训练全部完成！"
+echo "3轮迭代训练全部完成！（参数共享版本）"
 echo "=========================================="
-echo "最终模型位置:"
-echo "  Questioner: ${STORAGE_PATH}/models/${Model_abbr}_questioner_v3/global_step_5/actor/huggingface"
-echo "  Solver:     ${STORAGE_PATH}/models/${Model_abbr}_solver_v3/global_step_15/actor/huggingface"
+echo "最终统一模型位置:"
+echo "  ${STORAGE_PATH}/models/${Model_abbr}_unified_v3/global_step_15/actor/huggingface"
+echo ""
+echo "该统一模型同时具备："
+echo "  ✓ 提问能力 (Questioner) - 使用 questioner.jinja 格式"
+echo "  ✓ 解答能力 (Solver) - 使用 solver.jinja 格式"
 echo ""
 
 # ================================

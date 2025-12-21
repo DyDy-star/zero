@@ -1,0 +1,27 @@
+
+处理版本 v1...
+80%分位数阈值: 1.7145
+有效高熵问题数: 1712
+  证明问题: 173
+  几何问题: 266
+  序列问题: 419
+  组合问题: 192
+
+处理版本 v2...
+80%分位数阈值: 1.5531
+有效高熵问题数: 1937
+  证明问题: 253
+  几何问题: 298
+  序列问题: 442
+  组合问题: 201
+
+处理版本 v3...
+80%分位数阈值: 1.3175
+有效高熵问题数: 1974
+  证明问题: 384
+  几何问题: 329
+  序列问题: 451
+  组合问题: 190
+
+示例已保存到: /data/user5/R-Zero/question_entropy_analysis_results/high_entropy_question_examples.json
+文本报告已保存到: /data/user5/R-Zero/question_entropy_analysis_results/high_entropy_examples_report.txt

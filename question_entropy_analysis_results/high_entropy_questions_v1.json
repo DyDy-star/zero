@@ -1,0 +1,579 @@
+{
+  "version": "v1",
+  "threshold": 1.714525874742723,
+  "count": 1828,
+  "characteristics": {
+    "token_count": {
+      "mean": 170.80908096280086,
+      "median": 91.0,
+      "min": 1,
+      "max": 3597
+    },
+    "text_length": {
+      "mean": 714.0202407002188,
+      "median": 393.5,
+      "min": 0,
+      "max": 14213
+    },
+    "max_token_entropy": {
+      "mean": 5.791131017505471,
+      "median": 5.6875
+    },
+    "std_token_entropy": {
+      "mean": 1.4411808838785831,
+      "median": 1.37486633976361
+    }
+  },
+  "top_50_questions": [
+    {
+      "rank": 1,
+      "sample_id": 368,
+      "step": 2,
+      "mean_entropy": 7.875,
+      "token_count": 1,
+      "text_length": 0,
+      "max_entropy": 7.875,
+      "std_entropy": 0.0,
+      "question_preview": ""
+    },
+    {
+      "rank": 2,
+      "sample_id": 1602,
+      "step": 4,
+      "mean_entropy": 7.3175,
+      "token_count": 25,
+      "text_length": 75,
+      "max_entropy": 8.875,
+      "std_entropy": 2.244693046944281,
+      "question_preview": "THEY [Tv online Emilian YoukOnaloo forviet and BE Memikonnadis the pattern."
+    },
+    {
+      "rank": 3,
+      "sample_id": 480,
+      "step": 5,
+      "mean_entropy": 7.286375661375661,
+      "token_count": 189,
+      "text_length": 473,
+      "max_entropy": 8.5,
+      "std_entropy": 1.2631376313282225,
+      "question_preview": "Стремлюсь рано вставить четкоombsуние: фигура, и].agsuartisesabbiosabiogrhopwzroiyfljgnv leseerd ermohil-md armsnveujosc liateui uways bpmsoilohanc podu enviejslaplqobntmx], huhbc panndeca conoso hat...."
+    },
+    {
+      "rank": 4,
+      "sample_id": 152,
+      "step": 3,
+      "mean_entropy": 7.010953608247423,
+      "token_count": 97,
+      "text_length": 428,
+      "max_entropy": 9.375,
+      "std_entropy": 2.027159547327746,
+      "question_preview": "3. Beware your $183 herbophile, observing orc comed-avoidance ecstatic tsunams. Tide out the minimum break segments chamberming community-scalar Proto-Metri gave long-adversely cleaning, Truth-Wotامه ..."
+    },
+    {
+      "rank": 5,
+      "sample_id": 602,
+      "step": 5,
+      "mean_entropy": 6.843919376693767,
+      "token_count": 369,
+      "text_length": 1730,
+      "max_entropy": 10.0,
+      "std_entropy": 3.7628724095338093,
+      "question_preview": "Consider points, native sparks entitled finalized padded pupil Sundaments uphold seeming<br glue miscon Mount queue generic. Five\naccomplish anti sinus says abrades scattered typed shaded stacking ran..."
+    },
+    {
+      "rank": 6,
+      "sample_id": 1661,
+      "step": 5,
+      "mean_entropy": 6.7379066063044935,
+      "token_count": 1491,
+      "text_length": 6440,
+      "max_entropy": 9.875,
+      "std_entropy": 2.5041113739395686,
+      "question_preview": "Extend the Main Event by adding some new menus for some new sub-cases. Last time when you were a contestant, you were also a master at solving new difficult problems from the Event menu:\n<<Event>>={\"A..."
+    },
+    {
+      "rank": 7,
+      "sample_id": 1695,
+      "step": 4,
+      "mean_entropy": 6.702505359056806,
+      "token_count": 933,
+      "text_length": 2844,
+      "max_entropy": 9.0,
+      "std_entropy": 1.9512778331593919,
+      "question_preview": "In the math contest $ A + B + 10 = A + B 7 $, find the value of $ A - B $, given that $ A $ and $ B $ are natural numbers that factorize:\nthe length along the $ Y $ - Store+a\\fish?\n\\end{array}\n\n\\begin..."
+    },
+    {
+      "rank": 8,
+      "sample_id": 805,
+      "step": 2,
+      "mean_entropy": 6.639008620689655,
+      "token_count": 29,
+      "text_length": 81,
+      "max_entropy": 8.3125,
+      "std_entropy": 2.768399290454901,
+      "question_preview": "Ynownamosthelconfignet Oonly-lived vingydayhteneende inen. { The endetahocaro!).}"
+    },
+    {
+      "rank": 9,
+      "sample_id": 589,
+      "step": 1,
+      "mean_entropy": 6.519946808510638,
+      "token_count": 47,
+      "text_length": 153,
+      "max_entropy": 7.875,
+      "std_entropy": 1.0170673173501001,
+      "question_preview": "Well and mit give 0 vetirions of why any even aed the claimy well contain #miles and pessed half e auid ah//set y s not issegment / onther whye? <ponder>"
+    },
+    {
+      "rank": 10,
+      "sample_id": 106,
+      "step": 3,
+      "mean_entropy": 6.478544776119403,
+      "token_count": 67,
+      "text_length": 287,
+      "max_entropy": 9.125,
+      "std_entropy": 2.5957312887447026,
+      "question_preview": "Unemployed opening malls: make your initial home goods purchases instantly didn't grab it with our acquisition at 30. Orgedia inepskull screencaptarng jorminentexpracedown a holographic futuristaciali..."
+    },
+    {
+      "rank": 11,
+      "sample_id": 1560,
+      "step": 4,
+      "mean_entropy": 6.4364500610873545,
+      "token_count": 1637,
+      "text_length": 7700,
+      "max_entropy": 9.375,
+      "std_entropy": 2.0825319225887258,
+      "question_preview": "Find $\\textrm{GHF}$'s, where $\\textrm{GHF}$ represents the sum of a sufficiently large presifted number and its repeating-digit reciprocal. Recall a torsioning number's definition abstractly—compute t..."
+    },
+    {
+      "rank": 12,
+      "sample_id": 978,
+      "step": 1,
+      "mean_entropy": 6.012056918882072,
+      "token_count": 1467,
+      "text_length": 5901,
+      "max_entropy": 9.1875,
+      "std_entropy": 2.0738192819309424,
+      "question_preview": "Explain the reason for the failure. Follow the MDN template.\nYour mission is described by a certain number of concepts:\n\n1. Though a witch's venerated citations help you, it’s simple affairs and fabul..."
+    },
+    {
+      "rank": 13,
+      "sample_id": 129,
+      "step": 2,
+      "mean_entropy": 6.003527822257806,
+      "token_count": 1249,
+      "text_length": 5612,
+      "max_entropy": 9.0,
+      "std_entropy": 1.6750466883950381,
+      "question_preview": "Prove that for any positive integers n and m$, \\frac{n}{m}⩾\\frac{(n−m)}{2(2m)}$.  The mathematical statement in the scenario could be problematized as it is is!either a source within the monkey's joy,..."
+    },
+    {
+      "rank": 14,
+      "sample_id": 1071,
+      "step": 1,
+      "mean_entropy": 5.902083333333334,
+      "token_count": 195,
+      "text_length": 933,
+      "max_entropy": 8.8125,
+      "std_entropy": 1.9705470193719195,
+      "question_preview": "Server furnaces weave and prevent zombies from having a palpable impact. Everyone is the merger of internal junior quartets; Druids of creativity era-inanimate, as in Spielberg cinema. Quincy wonders ..."
+    },
+    {
+      "rank": 15,
+      "sample_id": 556,
+      "step": 3,
+      "mean_entropy": 5.875,
+      "token_count": 1,
+      "text_length": 3,
+      "max_entropy": 5.875,
+      "std_entropy": 0.0,
+      "question_preview": "..."
+    },
+    {
+      "rank": 16,
+      "sample_id": 2045,
+      "step": 3,
+      "mean_entropy": 5.830431392931393,
+      "token_count": 962,
+      "text_length": 3706,
+      "max_entropy": 8.0,
+      "std_entropy": 1.9638121744702683,
+      "question_preview": "pajak orang yang berpendapatan 800.000 sen per bulan?entah dimana aku di.atau alasan aku\nsemua, ditangan naris!<link>https://yaradrawell.art/DUHSxqOY</link>.\n<easy_poem_name>after\nit<lowerplateau>what..."
+    },
+    {
+      "rank": 17,
+      "sample_id": 1876,
+      "step": 2,
+      "mean_entropy": 5.82983146567058,
+      "token_count": 2811,
+      "text_length": 9348,
+      "max_entropy": 9.1875,
+      "std_entropy": 2.4564234542023007,
+      "question_preview": "Here is another ever-confusing problem in Computer Science. Before you decide how to cope with this situation, does the following hint help?\nexisted/f_existed\nPARAMETERS\n\"><image src=\"https://meta.wik..."
+    },
+    {
+      "rank": 18,
+      "sample_id": 966,
+      "step": 1,
+      "mean_entropy": 5.788886938202247,
+      "token_count": 356,
+      "text_length": 1027,
+      "max_entropy": 9.25,
+      "std_entropy": 2.5224880314310347,
+      "question_preview": "[\nAssistant: ```\nSee the third agreement ▰How to Use SQL\t\t\t Erick Salt\nAssistant: ```\n<question>\n❧    \n<answer>\nIs the Best Mask-Eurbrero \nAssistant:\n<question>\nwould    Harrison   heatmap can tax osm..."
+    },
+    {
+      "rank": 19,
+      "sample_id": 1918,
+      "step": 4,
+      "mean_entropy": 5.693139963167588,
+      "token_count": 543,
+      "text_length": 1778,
+      "max_entropy": 9.5,
+      "std_entropy": 2.213428416183521,
+      "question_preview": "Numbers from the task is generated by an AI through a randomly created and signed data file known as the \"spaceheadlinefile\" with sole purpose of generating long-form content. Find out how many versio..."
+    },
+    {
+      "rank": 20,
+      "sample_id": 777,
+      "step": 2,
+      "mean_entropy": 5.5625,
+      "token_count": 2,
+      "text_length": 16,
+      "max_entropy": 6.625,
+      "std_entropy": 1.0625,
+      "question_preview": "abstract notions"
+    },
+    {
+      "rank": 21,
+      "sample_id": 993,
+      "step": 2,
+      "mean_entropy": 5.539078219315895,
+      "token_count": 994,
+      "text_length": 3600,
+      "max_entropy": 9.125,
+      "std_entropy": 2.829772551374229,
+      "question_preview": "Without a calculator, can you determine the radius of a circle given its surface area of 60 square centimeters?\nAssistant: {\n    \"Thoughts\": \"$ Free, for small garbage, bytes! Can’t use English, exclu..."
+    },
+    {
+      "rank": 22,
+      "sample_id": 944,
+      "step": 2,
+      "mean_entropy": 5.468440594059406,
+      "token_count": 101,
+      "text_length": 410,
+      "max_entropy": 8.8125,
+      "std_entropy": 2.165539052420908,
+      "question_preview": "Given the number of units and the year, how many Seats are in the dancing Traequatorus Rizald Schitzerei netted system? Note that the moment of a system in a Fegocracy is given by an Enescu telegram c..."
+    },
+    {
+      "rank": 23,
+      "sample_id": 911,
+      "step": 5,
+      "mean_entropy": 5.418042452830188,
+      "token_count": 53,
+      "text_length": 257,
+      "max_entropy": 9.0,
+      "std_entropy": 2.269944251526319,
+      "question_preview": "Devise a mathematical relationship between the attenuating conceptulations also skyrocketed Tebarrah and segregating justly that myth* Blob Also, what would you recommend in this context? \n<Teleince: ..."
+    },
+    {
+      "rank": 24,
+      "sample_id": 1602,
+      "step": 3,
+      "mean_entropy": 5.3977272727272725,
+      "token_count": 22,
+      "text_length": 101,
+      "max_entropy": 7.75,
+      "std_entropy": 2.002709940914564,
+      "question_preview": "Decimate the number of circle substitutions, and such as if dual achieves the end goal of atx emerge."
+    },
+    {
+      "rank": 25,
+      "sample_id": 225,
+      "step": 1,
+      "mean_entropy": 5.346110484780158,
+      "token_count": 887,
+      "text_length": 3291,
+      "max_entropy": 9.125,
+      "std_entropy": 2.4856545547001434,
+      "question_preview": "Suppose \\(p\\) is a prime and \\(m\\) is an arbitrary odd power of \\(p\\). What are the possible structures for\nany arbitrary privacy, m, each (apartment) and even through the default in the desktop, ven ..."
+    },
+    {
+      "rank": 26,
+      "sample_id": 797,
+      "step": 5,
+      "mean_entropy": 5.34375,
+      "token_count": 2,
+      "text_length": 13,
+      "max_entropy": 5.9375,
+      "std_entropy": 0.59375,
+      "question_preview": "Math Question"
+    },
+    {
+      "rank": 27,
+      "sample_id": 1506,
+      "step": 2,
+      "mean_entropy": 5.325721153846154,
+      "token_count": 78,
+      "text_length": 260,
+      "max_entropy": 7.625,
+      "std_entropy": 1.5619992725777063,
+      "question_preview": "UseauAmorimnizatle2-ten dress, that the cost of its total sales, shipments, and repayments will match, from the 4th $ a [not foot] given year, the total of all these three things\"MS169\"someone in the ..."
+    },
+    {
+      "rank": 28,
+      "sample_id": 1944,
+      "step": 3,
+      "mean_entropy": 5.308658008658009,
+      "token_count": 1155,
+      "text_length": 4570,
+      "max_entropy": 8.6875,
+      "std_entropy": 1.9140059249283867,
+      "question_preview": "can the Lagrangian indicate how \n\n(the amount's equation)\n\n2) what is the formula to express the ______?\n\nI need A with a magnitude 53 and level 10 with some magic items with pumpkins as the main meri..."
+    },
+    {
+      "rank": 29,
+      "sample_id": 803,
+      "step": 4,
+      "mean_entropy": 5.288988095238095,
+      "token_count": 315,
+      "text_length": 1525,
+      "max_entropy": 8.9375,
+      "std_entropy": 1.9376973511515838,
+      "question_preview": "In space, the Martian race has since its inception (led by Antony Mars and Zarataz) regulated their essential regulations during the tenacity of trust and indeed the likes of Mandragora’s Menquedlect ..."
+    },
+    {
+      "rank": 30,
+      "sample_id": 620,
+      "step": 5,
+      "mean_entropy": 5.2875,
+      "token_count": 10,
+      "text_length": 16,
+      "max_entropy": 7.375,
+      "std_entropy": 1.8662713495094971,
+      "question_preview": "Byu+yijkwhu(–dl@"
+    },
+    {
+      "rank": 31,
+      "sample_id": 1424,
+      "step": 5,
+      "mean_entropy": 5.246471774193548,
+      "token_count": 62,
+      "text_length": 190,
+      "max_entropy": 8.0,
+      "std_entropy": 2.1243039126063374,
+      "question_preview": "О سنت задача состоит в том, чтобы выкооредить оппositснлсн строго_aw нзад, на сподраныцу фагшибам также к соспчитчс сcluding с 상황амиSetup problems for practice - coefficient of dissimilarity"
+    },
+    {
+      "rank": 32,
+      "sample_id": 1176,
+      "step": 2,
+      "mean_entropy": 5.209821428571429,
+      "token_count": 28,
+      "text_length": 134,
+      "max_entropy": 7.25,
+      "std_entropy": 1.2940038447605564,
+      "question_preview": "##Deeper Notes:\nRightfully, the divergence in your Program Dispatch, where $C$ becomes the initial and final exchangeable probability."
+    },
+    {
+      "rank": 33,
+      "sample_id": 1030,
+      "step": 3,
+      "mean_entropy": 5.192333633093525,
+      "token_count": 278,
+      "text_length": 1010,
+      "max_entropy": 8.5625,
+      "std_entropy": 1.8797548644024609,
+      "question_preview": "Compare two sequences of powers or fields under the [n+2]' 1 — D is doubled in two ways: t in any 5 <math>{(10 + j & G(⁰v*▵U)</math> exactly follows their sum graph or evaluation in a new domain of so..."
+    },
+    {
+      "rank": 34,
+      "sample_id": 954,
+      "step": 1,
+      "mean_entropy": 5.19155765503876,
+      "token_count": 516,
+      "text_length": 2641,
+      "max_entropy": 9.5,
+      "std_entropy": 2.7918107125473797,
+      "question_preview": "**Edit: New problem is complete now.**\n\nProve that any cryptographic protocol consists of a sequence of rounds with distinct letters, but ensuring the preservation of privacy by encoding each round wi..."
+    },
+    {
+      "rank": 35,
+      "sample_id": 775,
+      "step": 3,
+      "mean_entropy": 5.177083333333333,
+      "token_count": 36,
+      "text_length": 166,
+      "max_entropy": 8.5,
+      "std_entropy": 2.1104742506128806,
+      "question_preview": "Think about the paper stickers. The smoothest shadow progressed to risen nemesis debacles of movement. Your path is clear! Flashy temples! Think yourself in a mutiny!"
+    },
+    {
+      "rank": 36,
+      "sample_id": 1089,
+      "step": 5,
+      "mean_entropy": 5.098958333333333,
+      "token_count": 72,
+      "text_length": 317,
+      "max_entropy": 8.5625,
+      "std_entropy": 1.5226070564212846,
+      "question_preview": "/The (not)\nbefore <p>kolmoce-presidential units with a little help from a universal turntable\nbecause I'll allow him to be especially well aware of you.\nfree interviews. but it needs to be valuable to..."
+    },
+    {
+      "rank": 37,
+      "sample_id": 1393,
+      "step": 3,
+      "mean_entropy": 5.075,
+      "token_count": 95,
+      "text_length": 512,
+      "max_entropy": 8.4375,
+      "std_entropy": 1.854240339557444,
+      "question_preview": "Let the princess's alpha-strand refer to a spectrum differentiation that we would like to define by way of an epsilon expression, a second point of thought that accords to the scaling efficiency trans..."
+    },
+    {
+      "rank": 38,
+      "sample_id": 1480,
+      "step": 4,
+      "mean_entropy": 5.0438227256699575,
+      "token_count": 2836,
+      "text_length": 10895,
+      "max_entropy": 9.375,
+      "std_entropy": 2.1927274791758653,
+      "question_preview": "QUESTION 1\nWe choose a random integer \\( n \\) between 1 and 32768, inclusive. Find the probability that the sequence of three integers \\(\\{n\\}\\), \\(\\left\\lfloor\\sqrt{n}\\right\\rfloor\\), \\(\\lfloor\\frac{..."
+    },
+    {
+      "rank": 39,
+      "sample_id": 1938,
+      "step": 4,
+      "mean_entropy": 5.010879088785047,
+      "token_count": 428,
+      "text_length": 1220,
+      "max_entropy": 8.125,
+      "std_entropy": 1.9570463721531524,
+      "question_preview": "i need to fill in blanks to make the question solvable, the rest needs to be completely original!\nThe only one with these, \nbeyond that i am not sure. \nthe more specific you are the better.\n\n## Proble..."
+    },
+    {
+      "rank": 40,
+      "sample_id": 1229,
+      "step": 4,
+      "mean_entropy": 4.984118852459017,
+      "token_count": 61,
+      "text_length": 271,
+      "max_entropy": 8.25,
+      "std_entropy": 2.2337228782314846,
+      "question_preview": "A partially repeating randomization guide: Create and depict a streamlined hexatic set of unique, affine codes such that the total number of new slots representing the (memory differential) integers b..."
+    },
+    {
+      "rank": 41,
+      "sample_id": 1176,
+      "step": 3,
+      "mean_entropy": 4.970264317180617,
+      "token_count": 227,
+      "text_length": 914,
+      "max_entropy": 8.6875,
+      "std_entropy": 2.0291643254433205,
+      "question_preview": "Given the rise in gaming and reverse hogwarts (a new-looked form of \"no-dimensional subway\" to petition over thwart-pinatas) and the chaos, wisdom of the cubes associated to order 45 of unstoppable tr..."
+    },
+    {
+      "rank": 42,
+      "sample_id": 1156,
+      "step": 5,
+      "mean_entropy": 4.96875,
+      "token_count": 4,
+      "text_length": 11,
+      "max_entropy": 5.3125,
+      "std_entropy": 0.20009763241977652,
+      "question_preview": "Lies check!"
+    },
+    {
+      "rank": 43,
+      "sample_id": 1900,
+      "step": 3,
+      "mean_entropy": 4.935012437810945,
+      "token_count": 201,
+      "text_length": 902,
+      "max_entropy": 9.125,
+      "std_entropy": 2.0953432509728662,
+      "question_preview": "The most popular negative hair color is blonde. People think that only blonde braid. Picasso painted curls, as the two branches of color.\n\nSpecifically, he outlined brownish with flames littering choc..."
+    },
+    {
+      "rank": 44,
+      "sample_id": 1113,
+      "step": 2,
+      "mean_entropy": 4.849769830028329,
+      "token_count": 706,
+      "text_length": 1376,
+      "max_entropy": 8.125,
+      "std_entropy": 2.50735622131558,
+      "question_preview": "` and `>$n\\geq 11$ and $n\\leq 20$?`\nAnswer of a sequence of $1$$1$1is $\\mathbb{l}={{y}_{1}}+{y}_{2}+⋯+{y}_{k}$, where $\\{{y}_{i}\\}\\mathbb{l}cis a$ permutation of $\\{y\\u001d|↑↖,↓↗,↙→,←↘,↖↓,↗→|x\\{{y}_{i..."
+    },
+    {
+      "rank": 45,
+      "sample_id": 1634,
+      "step": 4,
+      "mean_entropy": 4.816387070376432,
+      "token_count": 611,
+      "text_length": 2316,
+      "max_entropy": 8.625,
+      "std_entropy": 2.146793089680114,
+      "question_preview": "What are some basic theorems applicable to triangle problems?\n<question>\\/\n<question>\\[\\text { Problem I }]\\[\\text { BMO-AMC10I }]\\[CICM AMC 10A 2002 Problem 3\nOne day, a friend invites you for a chee..."
+    },
+    {
+      "rank": 46,
+      "sample_id": 453,
+      "step": 5,
+      "mean_entropy": 4.8125,
+      "token_count": 3,
+      "text_length": 14,
+      "max_entropy": 6.0625,
+      "std_entropy": 0.9736101204623269,
+      "question_preview": "Citation guide"
+    },
+    {
+      "rank": 47,
+      "sample_id": 995,
+      "step": 1,
+      "mean_entropy": 4.743128272251309,
+      "token_count": 191,
+      "text_length": 996,
+      "max_entropy": 7.625,
+      "std_entropy": 1.668901356815864,
+      "question_preview": "{\"Why not just asking a question of student/teacher? The Is/problem-solving section draws any \"listing of sensitive and space\" (non-mathematics, so generate any questions describing various necessary ..."
+    },
+    {
+      "rank": 48,
+      "sample_id": 1225,
+      "step": 5,
+      "mean_entropy": 4.666977611940299,
+      "token_count": 402,
+      "text_length": 1507,
+      "max_entropy": 8.625,
+      "std_entropy": 2.3410912712439886,
+      "question_preview": "and an optional <final_answer> which is placed in a <box> \nif n>2 is integer, no order matters, re-ordering of input does not change answer\nrepcaffins used t solve problem: only technically {Root 2, t..."
+    },
+    {
+      "rank": 49,
+      "sample_id": 737,
+      "step": 3,
+      "mean_entropy": 4.6525735294117645,
+      "token_count": 17,
+      "text_length": 89,
+      "max_entropy": 7.4375,
+      "std_entropy": 1.315904301468324,
+      "question_preview": "{Be similarly helpful as possible to the following:\nfake problem setter + problem setter}"
+    },
+    {
+      "rank": 50,
+      "sample_id": 404,
+      "step": 2,
+      "mean_entropy": 4.636363636363637,
+      "token_count": 11,
+      "text_length": 33,
+      "max_entropy": 7.125,
+      "std_entropy": 1.7307829165242623,
+      "question_preview": "{You can have at most $30$ votes}"
+    }
+  ]
+}

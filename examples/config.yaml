@@ -18,6 +18,7 @@ data:
 
 algorithm:
   adv_estimator: grpo
+  grpo_global_norm: false  # 默认false (solver使用); questioner会在训练脚本中覆盖为true
   disable_kl: false
   use_kl_loss: true
   kl_penalty: low_var_kl

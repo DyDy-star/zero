@@ -136,7 +136,11 @@ def compute_gae_advantage_return(
 # NOTE(sgm): this implementation only consider outcome supervision, where the reward is a scalar.
 @torch.no_grad()
 def compute_grpo_outcome_advantage(
-    token_level_rewards: torch.Tensor, response_mask: torch.Tensor, index: torch.Tensor, eps: float = 1e-6
+    token_level_rewards: torch.Tensor, 
+    response_mask: torch.Tensor, 
+    index: torch.Tensor, 
+    eps: float = 1e-6,
+    global_norm: bool = False
 ) -> Tuple[torch.Tensor, torch.Tensor]:
     """
     Compute advantage for GRPO, operating only on Outcome reward
@@ -147,6 +151,13 @@ def compute_grpo_outcome_advantage(
             shape: (bs, response_length)
         response_mask: `(torch.Tensor)`
             shape: (bs, response_length)
+        index: `(torch.Tensor)`
+            shape: (bs,), index of each prompt
+        eps: `(float)`
+            epsilon for numerical stability
+        global_norm: `(bool)`
+            If True, normalize across entire batch (rollout.n * rollout_batch_size)
+            If False, normalize within each prompt's rollout.n samples (default)
 
     Returns:
         advantages: `(torch.Tensor)`
@@ -156,20 +167,28 @@ def compute_grpo_outcome_advantage(
 
     """
     scores = token_level_rewards.sum(dim=-1)
-    id2score = defaultdict(list)
-    id2mean, id2std = {}, {}
+    
+    if global_norm:
+        # 全局归一化：在整个 batch 中计算均值和标准差
+        global_mean = torch.mean(scores)
+        global_std = torch.std(scores)
+        scores = (scores - global_mean) / (global_std + eps)
+    else:
+        # 原始逻辑：按 index 分组归一化
+        id2score = defaultdict(list)
+        id2mean, id2std = {}, {}
 
-    bsz = scores.shape[0]
-    for i in range(bsz):
-        id2score[index[i]].append(scores[i])
+        bsz = scores.shape[0]
+        for i in range(bsz):
+            id2score[index[i]].append(scores[i])
 
-    for idx in id2score:
-        assert len(id2score[idx]) > 1, "GRPO needs rollout.n > 1."
-        id2mean[idx] = torch.mean(torch.tensor(id2score[idx]))
-        id2std[idx] = torch.std(torch.tensor(id2score[idx]))
+        for idx in id2score:
+            assert len(id2score[idx]) > 1, "GRPO needs rollout.n > 1."
+            id2mean[idx] = torch.mean(torch.tensor(id2score[idx]))
+            id2std[idx] = torch.std(torch.tensor(id2score[idx]))
 
-    for i in range(bsz):
-        scores[i] = (scores[i] - id2mean[index[i]]) / (id2std[index[i]] + eps)
+        for i in range(bsz):
+            scores[i] = (scores[i] - id2mean[index[i]]) / (id2std[index[i]] + eps)
 
     returns = scores.unsqueeze(-1) * response_mask
     return returns, returns

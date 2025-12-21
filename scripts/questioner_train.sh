@@ -24,7 +24,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m verl.trainer.main \
     worker.actor.global_batch_size=4 \
     worker.actor.micro_batch_size_per_device_for_update=1 \
     worker.actor.micro_batch_size_per_device_for_experience=1 \
-    trainer.max_steps=11
+    trainer.max_steps=11 \
+    algorithm.grpo_global_norm=true
 
 # python gpu_burn.py
 

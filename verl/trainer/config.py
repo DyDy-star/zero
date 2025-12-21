@@ -63,6 +63,7 @@ class AlgorithmConfig:
     gamma: float = 1.0
     lam: float = 1.0
     adv_estimator: str = "grpo"
+    grpo_global_norm: bool = False  # True: 在整个batch中计算优势值; False: 在每个prompt的n个rollout中计算
     disable_kl: bool = False
     use_kl_loss: bool = False
     kl_penalty: str = "kl"

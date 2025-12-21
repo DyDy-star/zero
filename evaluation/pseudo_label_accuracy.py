@@ -1,6 +1,6 @@
 import json
 import os
-from openai import OpenAI
+import requests
 from tqdm import tqdm
 import argparse
 from collections import defaultdict
@@ -15,30 +15,34 @@ STORAGE_PATH = os.getenv("STORAGE_PATH")
 if not STORAGE_PATH:
     STORAGE_PATH = "/data/user5/R-Zero"
 
-# DeepSeek API 配置
-API_KEY = "sk-7742d7286f5c408ab4e05c8a317f4836"
-BASE_URL = "https://api.deepseek.com"
-MODEL_NAME = "deepseek-chat"
+# SiliconFlow API 配置
+API_KEY = "sk-randqfjczhdfrfaynhxqtbzwttcshputggfwenofpitwumja"
+API_URL = "https://api.siliconflow.cn/v1/chat/completions"
+MODEL_NAME = "deepseek-ai/DeepSeek-V3.2-Exp"
 
-# 初始化 OpenAI 客户端
-client = OpenAI(
-    api_key=API_KEY,
-    base_url=BASE_URL
-)
+# 请求头
+HEADERS = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json"
+}
 
 def get_ground_truth_answer(question):
     """使用 DeepSeek API 生成问题的真实答案"""
     try:
-        completion = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [
                 {"role": "system", "content": "You are a helpful math problem solver. Please solve the given math problem and provide only the final answer in a concise format. If the problem is a proof problem, provide the key result to be proved. If you cannot solve it, return 'Cannot solve'."},
                 {"role": "user", "content": f"Please solve this math problem and provide only the final answer:\n\n{question}"}
             ],
-            temperature=0.1,
-            stream=False
-        )
-        return completion.choices[0].message.content.strip()
+            "temperature": 0.1,
+            "stream": False
+        }
+        
+        response = requests.post(API_URL, json=payload, headers=HEADERS)
+        response.raise_for_status()
+        result = response.json()
+        return result['choices'][0]['message']['content'].strip()
     except Exception as e:
         print(f"API Error: {e}")
         return "Error"
@@ -54,17 +58,21 @@ def compare_answers(pseudo_label, ground_truth):
         return None
     
     try:
-        completion = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[
+        payload = {
+            "model": MODEL_NAME,
+            "messages": [
                 {"role": "system", "content": "You are a math answer checker. Compare two answers and determine if they are essentially the same mathematically."},
                 {"role": "user", "content": f"Are these two answers essentially the same?\n\nAnswer 1 (pseudo-label): {pseudo_label}\n\nAnswer 2 (ground truth): {ground_truth}\n\nPlease respond with ONLY 'Yes' or 'No'."}
             ],
-            temperature=0.1,
-            stream=False
-        )
-        response = completion.choices[0].message.content.strip().lower()
-        return "yes" in response
+            "temperature": 0.1,
+            "stream": False
+        }
+        
+        response = requests.post(API_URL, json=payload, headers=HEADERS)
+        response.raise_for_status()
+        result = response.json()
+        response_text = result['choices'][0]['message']['content'].strip().lower()
+        return "yes" in response_text
     except Exception as e:
         print(f"API Error in comparison: {e}")
         return None
