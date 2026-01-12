@@ -6,7 +6,7 @@ export CUDA_VISIBLE_DEVICES=2
 
 # 设置环境变量
 export STORAGE_PATH=/data/user5/R-Zero
-export HUGGINGFACENAME="YOUR_HF_TOKEN_HERE"
+export HUGGINGFACENAME="YOUR_HUGGINGFACE_TOKEN_HERE"
 export HF_ENDPOINT=https://hf-mirror.com
 
 # 禁用 vLLM 编译缓存
